@@ -20,6 +20,16 @@ const getPegawaiById = async (id) => {
     }
 }
 
+const getPegawaiByEmail = async (email) => {
+    try {
+        const pegawai = await pegawaiRepository.getPegawaiByEmail(email);
+        return pegawai;
+    }
+    catch (error) {
+        throw error;
+    }
+}
+
 const createPegawai = async (data) => {
     try {
         const pegawai = await pegawaiRepository.createPegawai(data);
@@ -53,6 +63,7 @@ const deletePegawai = async (id) => {
 module.exports = {
     getAllPegawai,
     getPegawaiById,
+    getPegawaiByEmail,
     createPegawai,
     updatePegawai,
     deletePegawai
