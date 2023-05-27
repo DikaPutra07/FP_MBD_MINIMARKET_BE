@@ -17,7 +17,9 @@ module.exports = (sequelize, DataTypes) => {
   }
   Pegawai.init({
     nama: DataTypes.STRING,
-    bidang_kerja_id: DataTypes.INTEGER
+    bidang_kerja_id: DataTypes.INTEGER,
+    email: DataTypes.STRING,
+    password: DataTypes.STRING,
   }, {
     sequelize,
     modelName: 'Pegawai',

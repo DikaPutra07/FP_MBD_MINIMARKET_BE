@@ -12,6 +12,14 @@ const getPegawaiById = async (id) => {
     });
 }
 
+const getPegawaiByEmail = async (email) => {
+    return Pegawai.findOne({
+        where: {
+            email: email
+        }
+    });
+}
+
 const createPegawai = async (data) => {
     return Pegawai.create(data);
 }
@@ -35,6 +43,7 @@ const deletePegawai = async (id) => {
 module.exports = {
     getAllPegawai,
     getPegawaiById,
+    getPegawaiByEmail,
     createPegawai,
     updatePegawai,
     deletePegawai
