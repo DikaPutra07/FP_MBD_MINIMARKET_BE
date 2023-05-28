@@ -1,12 +1,12 @@
-const barangService = require('../services/barangService');
+const barangTransaksiPenjualanSevice = require('../services/barangTransaksiPenjualanService');
 
-const getAllBarang = async (req, res) => {
-    barangService.getAllBarang()
+const getAllBarangTransaksiPenjualan = async (req, res) => {
+    barangTransaksiPenjualanSevice.getAllBarangTransaksiPenjualan()
         .then((data) => {
             if (!data) {
                 return res.status(404).send({
                     status: 'error',
-                    message: 'Barang tidak ditemukan'
+                    message: 'Barang Transaksi Penjualan tidak ditemukan'
                 })
             }
             else {
@@ -21,17 +21,17 @@ const getAllBarang = async (req, res) => {
                 status: 'error',
                 message: error.message
             })
-        })
+        }
+        )
 }
 
-const getBarangById = async (req, res) => {
-    const id = req.params.id;
-    barangService.getBarangById(id)
+const getBarangTransaksiPenjualanById = async (req, res) => {
+    barangTransaksiPenjualanSevice.getBarangTransaksiPenjualanById(id)
         .then((data) => {
-            if (!data) {
+            if(!data) {
                 return res.status(404).send({
                     status: 'error',
-                    message: 'Barang tidak ditemukan'
+                    message: 'Barang Transaksi Penjualan tidak ditemukan'
                 })
             }
             else {
@@ -40,18 +40,20 @@ const getBarangById = async (req, res) => {
                     data: data
                 })
             }
-        })
+        }
+        )
         .catch((error) => {
             return res.status(500).send({
                 status: 'error',
                 message: error.message
             })
-        })
+        }
+        )
 }
 
-const createBarang = async (req, res) => {
+const createBarangTransaksiPenjualan = async (req, res) => {
     const data = req.body;
-    barangService.createBarang(data)
+    barangTransaksiPenjualanSevice.createBarangTransaksiPenjualan(data)
         .then((created) => {
             return res.status(201).send({
                 status: 'success',
@@ -66,23 +68,15 @@ const createBarang = async (req, res) => {
         })
 }
 
-const updateBarang = async (req, res) => {
-    const id = req.params.id;
+const updateBarangTransaksiPenjualan = async (req, res) => {
     const data = req.body;
-    barangService.updateBarang(data, id)
+    const id = req.params.id;
+    barangTransaksiPenjualanSevice.updateBarangTransaksiPenjualan(id, data)
         .then((updated) => {
-            if (!updated) {
-                return res.status(404).send({
-                    status: 'error',
-                    message: 'Barang tidak dapat di update'
-                })
-            }
-            else {
-                return res.status(200).send({
-                    status: 'success',
-                    data: updated
-                })
-            }
+            return res.status(200).send({
+                status: 'success',
+                data: updated
+            })
         })
         .catch((error) => {
             return res.status(500).send({
@@ -90,24 +84,16 @@ const updateBarang = async (req, res) => {
                 message: error.message
             })
         })
-}
+}   
 
-const deleteBarang = async (req, res) => {
+const deleteBarangTransaksiPenjualan = async (req, res) => {
     const id = req.params.id;
-    barangService.deleteBarang(id)
+    barangTransaksiPenjualanSevice.deleteBarangTransaksiPenjualan(id)
         .then((deleted) => {
-            if (!deleted) {
-                return es.status(404).send({
-                    status: 'error',
-                    message: 'Barang tidak dapat di hapus'
-                })
-            }
-            else {
-                return res.status(200).send({
-                    status: 'success',
-                    data: deleted
-                })
-            }
+            return res.status(200).send({
+                status: 'success',
+                data: deleted
+            })
         })
         .catch((error) => {
             return res.status(500).send({
@@ -118,9 +104,9 @@ const deleteBarang = async (req, res) => {
 }
 
 module.exports = {
-    getAllBarang,
-    getBarangById,
-    createBarang,
-    updateBarang,
-    deleteBarang
+    getAllBarangTransaksiPenjualan,
+    getBarangTransaksiPenjualanById,
+    createBarangTransaksiPenjualan,
+    updateBarangTransaksiPenjualan,
+    deleteBarangTransaksiPenjualan
 }
