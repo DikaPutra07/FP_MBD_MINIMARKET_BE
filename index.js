@@ -15,6 +15,9 @@ const pegawaiRoute = require('./app/routes/pegawaiRoute');
 const transaksiPembelianRoute = require('./app/routes/transaksiPembelianRoute');
 const transaksiPenjualanRoute = require('./app/routes/transaksiPenjualanRoute');
 const supplierRoute = require('./app/routes/supplierRoute');
+const barangTransaksiPenjualanRoute = require('./app/routes/barangTransaksiPenjualanRoute');
+const barangTransaksiPembelianRoute = require('./app/routes/barangTransaksiPembelianRoute');
+const bidangKerjaRoute = require('./app/routes/bidangKerjaRoute');
 
 ///////////API DISINI///////////////////////
 
@@ -25,6 +28,9 @@ app.use('/pegawai', pegawaiRoute);
 app.use('/transaksi-pembelian', transaksiPembelianRoute);
 app.use('/transaksi-penjualan', transaksiPenjualanRoute);
 app.use('/supplier', supplierRoute);
+app.use('/barang-transaksi-penjualan', barangTransaksiPenjualanRoute);
+app.use('/barang-transaksi-pembelian', barangTransaksiPembelianRoute);
+app.use('/bidang-kerja', bidangKerjaRoute);
 
 ///////////////////////////
 

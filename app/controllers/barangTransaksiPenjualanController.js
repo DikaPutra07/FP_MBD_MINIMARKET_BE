@@ -26,6 +26,7 @@ const getAllBarangTransaksiPenjualan = async (req, res) => {
 }
 
 const getBarangTransaksiPenjualanById = async (req, res) => {
+    const id = req.params.id;
     barangTransaksiPenjualanSevice.getBarangTransaksiPenjualanById(id)
         .then((data) => {
             if(!data) {

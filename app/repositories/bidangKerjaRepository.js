@@ -1,11 +1,11 @@
-const {BidangKerja} = require('../models')
+const {Bidang_Kerja} = require('../models')
 
 const getAllBidangKerja = async () => {
-    return BidangKerja.findAll();
+    return Bidang_Kerja.findAll();
 }
 
 const getBidangKerjaById = async (id) => {
-    return BidangKerja.findOne({
+    return Bidang_Kerja.findOne({
         where: {
             id: id
         }
@@ -13,11 +13,11 @@ const getBidangKerjaById = async (id) => {
 }
 
 const createBidangKerja = async (data) => {
-    return BidangKerja.create(data);
+    return Bidang_Kerja.create(data);
 }
 
 const updateBidangKerja = async (data, id) => {
-    return BidangKerja.update(data, {
+    return Bidang_Kerja.update(data, {
         where: {
             id: id
         }
@@ -25,7 +25,7 @@ const updateBidangKerja = async (data, id) => {
 }
 
 const deleteBidangKerja = async (id) => {
-    return BidangKerja.destroy({
+    return Bidang_Kerja.destroy({
         where: {
             id: id
         }

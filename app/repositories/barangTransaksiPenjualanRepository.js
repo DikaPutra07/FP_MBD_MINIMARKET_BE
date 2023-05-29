@@ -1,11 +1,11 @@
-const { BarangTransaksiPenjualan } = require('../models');
+const { Barang_Transaksi_Penjualan } = require('../models');
 
 const getAllBarangTransaksiPenjualan = async () => {
-    return BarangTransaksiPenjualan.findAll();
+    return Barang_Transaksi_Penjualan.findAll();
 }
 
 const getBarangTransaksiPenjualanById = async (id) => {
-    return BarangTransaksiPenjualan.findOne({
+    return Barang_Transaksi_Penjualan.findOne({
         where: {
             id: id
         }
@@ -13,11 +13,11 @@ const getBarangTransaksiPenjualanById = async (id) => {
 }
 
 const createBarangTransaksiPenjualan = async (data) => {
-    return BarangTransaksiPenjualan.create(data);
+    return Barang_Transaksi_Penjualan.create(data);
 }
 
 const updateBarangTransaksiPenjualan = async (data, id) => {
-    return BarangTransaksiPenjualan.update(data, {
+    return Barang_Transaksi_Penjualan.update(data, {
         where: {
             id: id
         }
@@ -25,7 +25,7 @@ const updateBarangTransaksiPenjualan = async (data, id) => {
 }
 
 const deleteBarangTransaksiPenjualan = async (id) => {
-    return BarangTransaksiPenjualan.destroy({
+    return Barang_Transaksi_Penjualan.destroy({
         where: {
             id: id
         }

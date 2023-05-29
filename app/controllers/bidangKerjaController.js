@@ -25,6 +25,7 @@ const getAllBidangKerja = async (req, res) => {
 }
 
 const getBidangKerjaById = async (req, res) => {
+    const id = req.params.id;
     bidangKerjaService.getBidangKerjaById(id)
         .then((data) => {
             if (!data) {

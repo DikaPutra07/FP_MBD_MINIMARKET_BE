@@ -1,8 +1,8 @@
-const barangTransaksiPembelianRepository = require('../repositories/barangTransaksiPembelianRepository');
+const barangTransaksiPenjualanRepository = require('../repositories/barangTransaksiPenjualanRepository');
 
-const getAllBarangTransaksiPembelian = async () => {    
+const getAllBarangTransaksiPenjualan = async () => {
     try {
-        const data = await barangTransaksiPembelianRepository.getAllBarangTransaksiPembelian();
+        const data = await barangTransaksiPenjualanRepository.getAllBarangTransaksiPenjualan();
         return data;
     }
     catch (error) {
@@ -10,9 +10,9 @@ const getAllBarangTransaksiPembelian = async () => {
     }
 }
 
-const getBarangTransaksiPembelianById = async (id) => {
+const getBarangTransaksiPenjualanById = async (id) => {
     try {
-        const data = await barangTransaksiPembelianRepository.getBarangTransaksiPembelianById(id);
+        const data = await barangTransaksiPenjualanRepository.getBarangTransaksiPenjualanById(id);
         return data;
     }
     catch (error) {
@@ -20,9 +20,9 @@ const getBarangTransaksiPembelianById = async (id) => {
     }
 }
 
-const createBarangTransaksiPembelian = async (data) => {
+const createBarangTransaksiPenjualan = async (data) => {
     try {
-        const created = await barangTransaksiPembelianRepository.createBarangTransaksiPembelian(data);
+        const created = await barangTransaksiPenjualanRepository.createBarangTransaksiPenjualan(data);
         return created;
     }
     catch (error) {
@@ -30,9 +30,9 @@ const createBarangTransaksiPembelian = async (data) => {
     }
 }
 
-const updateBarangTransaksiPembelian = async (data, id) => {
+const updateBarangTransaksiPenjualan = async (data, id) => {
     try {
-        const updated = await barangTransaksiPembelianRepository.updateBarangTransaksiPembelian(data, id);
+        const updated = await barangTransaksiPenjualanRepository.updateBarangTransaksiPenjualan(data, id);
         return updated;
     }
     catch (error) {
@@ -40,9 +40,9 @@ const updateBarangTransaksiPembelian = async (data, id) => {
     }
 }
 
-const deleteBarangTransaksiPembelian = async (id) => {
+const deleteBarangTransaksiPenjualan = async (id) => {
     try {
-        const deleted = await barangTransaksiPembelianRepository.deleteBarangTransaksiPembelian(id);
+        const deleted = await barangTransaksiPenjualanRepository.deleteBarangTransaksiPenjualan(id);
         return deleted;
     }
     catch (error) {
@@ -51,10 +51,9 @@ const deleteBarangTransaksiPembelian = async (id) => {
 }
 
 module.exports = {
-    getAllBarangTransaksiPembelian,
-    getBarangTransaksiPembelianById,
-    createBarangTransaksiPembelian,
-    updateBarangTransaksiPembelian,
-    deleteBarangTransaksiPembelian
+    getAllBarangTransaksiPenjualan,
+    getBarangTransaksiPenjualanById,
+    createBarangTransaksiPenjualan,
+    updateBarangTransaksiPenjualan,
+    deleteBarangTransaksiPenjualan
 }
-

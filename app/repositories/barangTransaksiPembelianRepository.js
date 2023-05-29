@@ -1,11 +1,11 @@
-const { BarangTransaksiPembelian } = require('../models');
+const { Barang_Transaksi_Pembelian } = require('../models');
 
 const getAllBarangTransaksiPembelian = async () => {
-    return BarangTransaksiPembelian.findAll();
+    return Barang_Transaksi_Pembelian.findAll();
 }
 
 const getBarangTransaksiPembelianById = async (id) => {
-    return BarangTransaksiPembelian.findOne({
+    return Barang_Transaksi_Pembelian.findOne({
         where: {
             id: id
         }
@@ -13,11 +13,11 @@ const getBarangTransaksiPembelianById = async (id) => {
 }
 
 const createBarangTransaksiPembelian = async (data) => {
-    return BarangTransaksiPembelian.create(data);
+    return Barang_Transaksi_Pembelian.create(data);
 }
 
 const updateBarangTransaksiPembelian = async (data, id) => {
-    return BarangTransaksiPembelian.update(data, {
+    return Barang_Transaksi_Pembelian.update(data, {
         where: {
             id: id
         }
@@ -25,7 +25,7 @@ const updateBarangTransaksiPembelian = async (data, id) => {
 }
 
 const deleteBarangTransaksiPembelian = async (id) => {
-    return BarangTransaksiPembelian.destroy({
+    return Barang_Transaksi_Pembelian.destroy({
         where: {
             id: id
         }
