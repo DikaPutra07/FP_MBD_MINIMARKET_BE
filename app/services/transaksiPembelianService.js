@@ -20,6 +20,26 @@ const getTransaksiPembelianById = async (id) => {
     }
 }
 
+const getTransaksiPembelianByPegawaiId = async (pegawai_id) => {
+    try {
+        const transaksiPembelian = await transaksiPembelianRepository.getTransaksiPembelianByPegawaiId(pegawai_id);
+        return transaksiPembelian;
+    }
+    catch (error) {
+        throw error;
+    }
+}
+
+const getTransaksiPembelianBySupplierId = async (supplier_id) => {
+    try {
+        const transaksiPembelian = await transaksiPembelianRepository.getTransaksiPembelianBySupplierId(supplier_id);
+        return transaksiPembelian;
+    }
+    catch (error) {
+        throw error;
+    }
+}
+
 const createTransaksiPembelian = async (data) => {
     try {
         const transaksiPembelian = await transaksiPembelianRepository.createTransaksiPembelian(data);
@@ -53,6 +73,8 @@ const deleteTransaksiPembelian = async (id) => {
 module.exports = {
     getAllTransaksiPembelian,
     getTransaksiPembelianById,
+    getTransaksiPembelianByPegawaiId,
+    getTransaksiPembelianBySupplierId,
     createTransaksiPembelian,
     updateTransaksiPembelian,
     deleteTransaksiPembelian

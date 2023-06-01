@@ -12,6 +12,22 @@ const getTransaksiPembelianById = async (id) => {
     });
 }
 
+const getTransaksiPembelianByPegawaiId = async (pegawai_id) => {
+    return Transaksi_Pembelian.findAll({
+        where: {
+            pegawai_id: pegawai_id
+        }
+    });
+}
+
+const getTransaksiPembelianBySupplierId = async (supplier_id) => {
+    return Transaksi_Pembelian.findAll({
+        where: {
+            supplier_id: supplier_id
+        }
+    });
+}
+
 const createTransaksiPembelian = async (data) => {
     return Transaksi_Pembelian.create(data);
 }
@@ -35,6 +51,8 @@ const deleteTransaksiPembelian = async (id) => {
 module.exports = {
     getAllTransaksiPembelian,
     getTransaksiPembelianById,
+    getTransaksiPembelianByPegawaiId,
+    getTransaksiPembelianBySupplierId,
     createTransaksiPembelian,
     updateTransaksiPembelian,
     deleteTransaksiPembelian

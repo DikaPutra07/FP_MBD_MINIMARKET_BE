@@ -20,6 +20,16 @@ const getBarangTransaksiPembelianById = async (id) => {
     }
 }
 
+const getBarangTransaksiPembelianByTransaksiPembelianId = async (transaksi_pembelian_id) => {
+    try {
+        const data = await barangTransaksiPembelianRepository.getBarangTransaksiPembelianByTransaksiPembelianId(transaksi_pembelian_id);
+        return data;
+    }
+    catch (error) {
+        throw error;
+    }
+}
+
 const createBarangTransaksiPembelian = async (data) => {
     try {
         const created = await barangTransaksiPembelianRepository.createBarangTransaksiPembelian(data);
@@ -53,6 +63,7 @@ const deleteBarangTransaksiPembelian = async (id) => {
 module.exports = {
     getAllBarangTransaksiPembelian,
     getBarangTransaksiPembelianById,
+    getBarangTransaksiPembelianByTransaksiPembelianId,
     createBarangTransaksiPembelian,
     updateBarangTransaksiPembelian,
     deleteBarangTransaksiPembelian

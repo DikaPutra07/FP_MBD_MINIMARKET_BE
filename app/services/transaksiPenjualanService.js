@@ -20,6 +20,26 @@ const getTransaksiPenjualanById = async (id) => {
     }
 }
 
+const getTransaksiPenjualanByPegawaiId = async (pegawai_id) => {
+    try {
+        const transaksiPenjualan = await transaksiPenjualanRepository.getTransaksiPenjualanByPegawaiId(pegawai_id);
+        return transaksiPenjualan;
+    }
+    catch (error) {
+        throw error;
+    }
+}
+
+const getTransaksiPenjualanByMemberId = async (member_id) => {
+    try {
+        const transaksiPenjualan = await transaksiPenjualanRepository.getTransaksiPenjualanByMemberId(member_id);
+        return transaksiPenjualan;
+    }
+    catch (error) {
+        throw error;
+    }
+}
+
 const createTransaksiPenjualan = async (data) => {
     try {
         const transaksiPenjualan = await transaksiPenjualanRepository.createTransaksiPenjualan(data);
@@ -53,6 +73,8 @@ const deleteTransaksiPenjualan = async (id) => {
 module.exports = {
     getAllTransaksiPenjualan,
     getTransaksiPenjualanById,
+    getTransaksiPenjualanByPegawaiId,
+    getTransaksiPenjualanByMemberId,
     createTransaksiPenjualan,
     updateTransaksiPenjualan,
     deleteTransaksiPenjualan

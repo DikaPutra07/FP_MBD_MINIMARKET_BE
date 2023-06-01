@@ -42,6 +42,54 @@ const getTransaksiPembelianById = async (req, res) => {
     });
 }
 
+const getTransaksiPembelianByPegawaiId = async (req, res) => {
+    const pegawai_id = req.params.pegawai_id;
+    transaksiPembelianService.getTransaksiPembelianByPegawaiId(pegawai_id)
+        .then((data) => {
+            if (!data)
+                res.status(404).json({
+                    status: 404,
+                    message: 'Data not found'
+                });
+            else
+                res.status(200).json({
+                    status: 200,
+                    message: 'Success',
+                    data: data
+                });
+        })
+        .catch((error) => {
+            res.status(500).json({
+                status: 500,
+                message: error.message
+            });
+        });
+}
+
+const getTransaksiPembelianBySupplierId = async (req, res) => {
+    const supplier_id = req.params.supplier_id;
+    transaksiPembelianService.getTransaksiPembelianBySupplierId(supplier_id)
+        .then((data) => {
+            if (!data)
+                res.status(404).json({
+                    status: 404,
+                    message: 'Data not found'
+                });
+            else
+                res.status(200).json({
+                    status: 200,
+                    message: 'Success',
+                    data: data
+                });
+        })
+        .catch((error) => {
+            res.status(500).json({
+                status: 500,
+                message: error.message
+            });
+        });
+}
+
 const createTransaksiPembelian = async (req, res) => {
     const data = req.body;
     transaksiPembelianService.createTransaksiPembelian(data)
@@ -115,6 +163,8 @@ const deleteTransaksiPembelian = async (req, res) => {
 module.exports = {
     getAllTransaksiPembelian,
     getTransaksiPembelianById,
+    getTransaksiPembelianByPegawaiId,
+    getTransaksiPembelianBySupplierId,
     createTransaksiPembelian,
     updateTransaksiPembelian,
     deleteTransaksiPembelian

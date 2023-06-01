@@ -12,6 +12,22 @@ const getTransaksiPenjualanById = async (id) => {
     });
 }
 
+const getTransaksiPenjualanByPegawaiId = async (pegawai_id) => {
+    return Transaksi_Penjualan.findAll({
+        where: {
+            pegawai_id: pegawai_id
+        }
+    });
+}
+
+const getTransaksiPenjualanByMemberId = async (member_id) => {
+    return Transaksi_Penjualan.findAll({
+        where: {
+            member_id: member_id
+        }
+    });
+}
+
 const createTransaksiPenjualan = async (data) => {
     return Transaksi_Penjualan.create(data);
 }
@@ -35,6 +51,8 @@ const deleteTransaksiPenjualan = async (id) => {
 module.exports = {
     getAllTransaksiPenjualan,
     getTransaksiPenjualanById,
+    getTransaksiPenjualanByPegawaiId,
+    getTransaksiPenjualanByMemberId,
     createTransaksiPenjualan,
     updateTransaksiPenjualan,
     deleteTransaksiPenjualan

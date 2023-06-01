@@ -52,6 +52,33 @@ const getBarangTransaksiPenjualanById = async (req, res) => {
         )
 }
 
+const getBarangTransaksiPenjualanByTransaksiPenjualanId = async (req, res) => {
+    const transaksi_penjualan_id = req.params.transaksi_penjualan_id;
+    barangTransaksiPenjualanSevice.getBarangTransaksiPenjualanByTransaksiPenjualanId(transaksi_penjualan_id)
+        .then((data) => {
+            if (!data) {
+                return res.status(404).send({
+                    status: 'error',
+                    message: 'Barang Transaksi Penjualan tidak ditemukan'
+                })
+            }
+            else {
+                return res.status(200).send({
+                    status: 'success',
+                    data: data
+                })
+            }
+        }
+    )
+        .catch((error) => {
+            return res.status(500).send({
+                status: 'error',
+                message: error.message
+            })
+        }
+    )
+}
+
 const createBarangTransaksiPenjualan = async (req, res) => {
     const data = req.body;
     barangTransaksiPenjualanSevice.createBarangTransaksiPenjualan(data)
@@ -72,7 +99,7 @@ const createBarangTransaksiPenjualan = async (req, res) => {
 const updateBarangTransaksiPenjualan = async (req, res) => {
     const data = req.body;
     const id = req.params.id;
-    barangTransaksiPenjualanSevice.updateBarangTransaksiPenjualan(id, data)
+    barangTransaksiPenjualanSevice.updateBarangTransaksiPenjualan(data, id)
         .then((updated) => {
             return res.status(200).send({
                 status: 'success',
@@ -107,6 +134,7 @@ const deleteBarangTransaksiPenjualan = async (req, res) => {
 module.exports = {
     getAllBarangTransaksiPenjualan,
     getBarangTransaksiPenjualanById,
+    getBarangTransaksiPenjualanByTransaksiPenjualanId,
     createBarangTransaksiPenjualan,
     updateBarangTransaksiPenjualan,
     deleteBarangTransaksiPenjualan
