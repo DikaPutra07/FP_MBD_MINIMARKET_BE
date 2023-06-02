@@ -2,7 +2,7 @@
 /** @type {import('sequelize-cli').Migration} */
 module.exports = {
   async up(queryInterface, Sequelize) {
-    await queryInterface.createTable('Barang_Transaksi_Pembelians', {
+    await queryInterface.createTable('Barang_Transaksi_Penjualans', {
       id: {
         allowNull: false,
         autoIncrement: true,
@@ -12,11 +12,23 @@ module.exports = {
       jumlah_barang: {
         type: Sequelize.INTEGER
       },
-      transaksi_pembelian_id: {
-        type: Sequelize.INTEGER
+      transaksi_penjualan_id: {
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'Transaksi_Penjualans',
+          key: 'id'
+        },
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE'
       },
       barang_id: {
-        type: Sequelize.INTEGER
+        type: Sequelize.INTEGER,
+        references: {
+          model: 'Barangs',
+          key: 'id'
+        },
+        onDelete: 'CASCADE',
+        onUpdate: 'CASCADE'
       },
       createdAt: {
         allowNull: false,
@@ -29,6 +41,6 @@ module.exports = {
     });
   },
   async down(queryInterface, Sequelize) {
-    await queryInterface.dropTable('Barang_Transaksi_Pembelians');
+    await queryInterface.dropTable('Barang_Transaksi_Penjualans');
   }
 };

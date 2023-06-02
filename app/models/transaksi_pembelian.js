@@ -10,9 +10,9 @@ module.exports = (sequelize, DataTypes) => {
      * The `models/index` file will call this method automatically.
      */
     static associate(models) {
-      Transaksi_Pembelian.belongsTo(models.Supplier, {foreignKey: 'supplier_id'}),
-      Transaksi_Pembelian.belongsTo(models.Pegawai, {foreignKey: 'pegawai_id'}),
-      Transaksi_Pembelian.hasMany(models.Barang_Transaksi_Pembelian, {foreignKey: 'transaksi_pembelian_id'});
+      Transaksi_Pembelian.belongsTo(models.Supplier, {foreignKey: 'supplier_id', onDelete: 'CASCADE', onUpdate: 'CASCADE'}),
+      Transaksi_Pembelian.belongsTo(models.Pegawai, {foreignKey: 'pegawai_id', onDelete: 'CASCADE', onUpdate: 'CASCADE'}),
+      Transaksi_Pembelian.hasMany(models.Barang_Transaksi_Pembelian, {foreignKey: 'transaksi_pembelian_id', onDelete: 'CASCADE', onUpdate: 'CASCADE'});
     }
   }
   Transaksi_Pembelian.init({
