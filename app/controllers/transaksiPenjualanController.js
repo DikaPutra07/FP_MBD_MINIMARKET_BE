@@ -3,11 +3,19 @@ const transaksiPenjualanService = require('../services/transaksiPenjualanService
 const getAllTransaksiPenjualan = async (req, res) => {
     transaksiPenjualanService.getAllTransaksiPenjualan()
         .then((result) => {
-            res.status(200).json({
-                status: 200,
-                message: 'Sukses mendapatkan semua data',
-                data: result
-            });
+            if (!result) {
+                res.status(404).json({
+                    status: 404,
+                    message: 'Data not found'
+                })
+            }
+            else {
+                res.status(200).json({
+                    status: 200,
+                    message: 'Data found',
+                    data: result
+                });
+            }
         }
     ).catch((error) => {
         res.status(500).json({
@@ -25,12 +33,12 @@ const getTransaksiPenjualanById = async (req, res) => {
             if (!result)
                 res.status(404).json({
                 status: 404,
-                message: 'Data tidak ditemukan'
+                message: 'Data not found'
             });
             else
             res.status(200).json({
                 status: 200,
-                message: 'Sukses mendapatkan data',
+                message: 'Data found',
                 data: result
             });
         }
@@ -50,12 +58,12 @@ const getTransaksiPenjualanByPegawaiId = async (req, res) => {
             if (!result)
                 res.status(404).json({
                     status: 404,
-                    message: 'Data tidak ditemukan'
+                    message: 'Data not found'
                 });
             else
                 res.status(200).json({
                     status: 200,
-                    message: 'Sukses mendapatkan data',
+                    message: 'Data found',
                     data: result
                 });
         }
@@ -75,12 +83,12 @@ const getTransaksiPenjualanByMemberId = async (req, res) => {
             if (!result)
                 res.status(404).json({
                     status: 404,
-                    message: 'Data tidak ditemukan'
+                    message: 'Data not found'
                 });
             else
                 res.status(200).json({
                     status: 200,
-                    message: 'Sukses mendapatkan data',
+                    message: 'Data found',
                     data: result
                 });
         }
@@ -97,11 +105,17 @@ const createTransaksiPenjualan = async (req, res) => {
     const data = req.body;
     transaksiPenjualanService.createTransaksiPenjualan(data)
         .then((result) => {
-            res.status(200).json({
-                status: 200,
-                message: 'Sukses membuat data',
-                data: result
-            });
+            if (!result)
+                res.status(404).json({
+                    status: 404,
+                    message: 'Data cannot be created'
+                });
+            else
+                res.status(201).json({
+                    status: 201,
+                    message: 'Data successfully created',
+                    data: result
+                });
         }
     ).catch((error) => {
         res.status(500).json({
@@ -117,11 +131,17 @@ const updateTransaksiPenjualan = async (req, res) => {
     const id = req.params.id;
     transaksiPenjualanService.updateTransaksiPenjualan(data, id)
         .then((result) => {
-            res.status(200).json({
-                status: 200,
-                message: 'Sukses mengubah data',
-                data: result
-            });
+            if (!result)
+                res.status(404).json({
+                    status: 404,
+                    message: 'Data cannot be updated'
+                });
+            else
+                res.status(200).json({
+                    status: 200,
+                    message: 'Data successfully updated',
+                    data: result
+                });
         }
     ).catch((error) => {
         res.status(500).json({
@@ -136,11 +156,17 @@ const deleteTransaksiPenjualan = async (req, res) => {
     const id = req.params.id;
     transaksiPenjualanService.deleteTransaksiPenjualan(id)
         .then((result) => {
-            res.status(200).json({
-                status: 200,
-                message: 'Sukses menghapus data',
-                data: result
+            if (!result)
+                res.status(404).json({
+                status: 404,
+                message: 'Data cannot be deleted'
             });
+            else
+                res.status(200).json({
+                    status: 200,
+                    message: 'Data successfully deleted',
+                    data: result
+                });
         }
     ).catch((error) => {
         res.status(500).json({

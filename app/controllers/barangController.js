@@ -5,13 +5,14 @@ const getAllBarang = async (req, res) => {
         .then((data) => {
             if (!data) {
                 return res.status(404).send({
-                    status: 'error',
-                    message: 'Barang tidak ditemukan'
+                    status: 404,
+                    message: 'Data not found'
                 })
             }
             else {
                 return res.status(200).send({
-                    status: 'success',
+                    status: 200,
+                    message: 'Data found',
                     data: data
                 })
             }
@@ -30,20 +31,21 @@ const getBarangById = async (req, res) => {
         .then((data) => {
             if (!data) {
                 return res.status(404).send({
-                    status: 'error',
-                    message: 'Barang tidak ditemukan'
+                    status: 404,
+                    message: 'Data not found'
                 })
             }
             else {
                 return res.status(200).send({
-                    status: 'success',
+                    status: 200,
+                    message: 'Data found',
                     data: data
                 })
             }
         })
         .catch((error) => {
             return res.status(500).send({
-                status: 'error',
+                status: 500,
                 message: error.message
             })
         })
@@ -54,7 +56,8 @@ const createBarang = async (req, res) => {
     barangService.createBarang(data)
         .then((created) => {
             return res.status(201).send({
-                status: 'success',
+                status: 201,
+                message: 'Data susccesfully created',
                 data: created
             })
         })
@@ -73,20 +76,21 @@ const updateBarang = async (req, res) => {
         .then((updated) => {
             if (!updated) {
                 return res.status(404).send({
-                    status: 'error',
-                    message: 'Barang tidak dapat di update'
+                    status: 404,
+                    message: 'Data cannot be updated'
                 })
             }
             else {
                 return res.status(200).send({
-                    status: 'success',
+                    status: 200,
+                    message: 'Data successfully updated',
                     data: updated
                 })
             }
         })
         .catch((error) => {
             return res.status(500).send({
-                status: 'error',
+                status: 500,
                 message: error.message
             })
         })
@@ -98,20 +102,21 @@ const deleteBarang = async (req, res) => {
         .then((deleted) => {
             if (!deleted) {
                 return es.status(404).send({
-                    status: 'error',
-                    message: 'Barang tidak dapat di hapus'
+                    status: 404,
+                    message: 'Data cannot be deleted'
                 })
             }
             else {
                 return res.status(200).send({
-                    status: 'success',
+                    status: 200,
+                    message: 'Data successfully deleted',
                     data: deleted
                 })
             }
         })
         .catch((error) => {
             return res.status(500).send({
-                status: 'error',
+                status: 500,
                 message: error.message
             })
         })

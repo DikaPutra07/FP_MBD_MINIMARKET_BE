@@ -5,11 +5,19 @@ const jwt = require('jsonwebtoken');
 const getAllPegawai = async (req, res) => {
     pegawaiService.getAllPegawai()
         .then((data) => {
-            res.status(200).json({
-                status: 200,
-                message: 'Success',
-                data: data
-            });
+            if (!data) {
+                return res.status(404).json({
+                    status: 404,
+                    message: 'Data not found'
+                });
+            }
+            else {
+                res.status(200).json({
+                    status: 200,
+                    message: 'Data found',
+                    data: data
+                });
+            }
         }
     ).catch((error) => {
         res.status(500).json({
@@ -32,7 +40,7 @@ const getPegawaiById = async (req, res) => {
             else
             res.status(200).json({
                 status: 200,
-                message: 'Success',
+                message: 'Data found',
                 data: data
             });
         }
@@ -129,7 +137,7 @@ const updatePegawai = async (req, res) => {
         .then((data) => {
             res.status(200).json({
                 status: 200,
-                message: 'Success',
+                message: 'Data Successefully Updated',
                 data: data
             });
         }
@@ -148,7 +156,7 @@ const deletePegawai = async (req, res) => {
         .then((data) => {
             res.status(200).json({
                 status: 200,
-                message: 'Success',
+                message: 'Data Successefully Deleted',
                 data: data
             });
         }

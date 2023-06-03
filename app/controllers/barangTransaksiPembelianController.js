@@ -5,20 +5,21 @@ const getAllBarangTransaksiPembelian = async (req, res) => {
         .then((data) => {
             if (!data) {
                 return res.status(404).send({
-                    status: 'error',
-                    message: 'Barang Transaksi Pembelian tidak ditemukan'
+                    status: 404,
+                    message: 'Data not found'
                 })
             }
             else {
                 return res.status(200).send({
-                    status: 'success',
+                    status: 200,
+                    message: 'Data found',
                     data: data
                 })
             }
         })
         .catch((error) => {
             return res.status(500).send({
-                status: 'error',
+                status: 500,
                 message: error.message
             })
         }
@@ -31,13 +32,14 @@ const getBarangTransaksiPembelianById = async (req, res) => {
         .then((data) => {
             if(!data) {
                 return res.status(404).send({
-                    status: 'error',
-                    message: 'Barang Transaksi Pembelian tidak ditemukan'
+                    status: 404,
+                    message: 'Data not found'
                 })
             }
             else {
                 return res.status(200).send({
-                    status: 'success',
+                    status: 200,
+                    message: 'Data found',
                     data: data
                 })
             }
@@ -45,7 +47,7 @@ const getBarangTransaksiPembelianById = async (req, res) => {
         )
         .catch((error) => {
             return res.status(500).send({
-                status: 'error',
+                status: 500,
                 message: error.message
             })
         }
@@ -58,13 +60,14 @@ const getBarangTransaksiPembelianByTransaksiPembelianId = async (req, res) => {
         .then((data) => {
             if (!data) {
                 return res.status(404).send({
-                    status: 'error',
-                    message: 'Barang Transaksi Pembelian tidak ditemukan'
+                    status: 404,
+                    message: 'Data not found'
                 })
             }
             else {
                 return res.status(200).send({
-                    status: 'success',
+                    status: 200,
+                    message: 'Data found',
                     data: data
                 })
             }
@@ -72,7 +75,7 @@ const getBarangTransaksiPembelianByTransaksiPembelianId = async (req, res) => {
     )
         .catch((error) => {
             return res.status(500).send({
-                status: 'error',
+                status: 500,
                 message: error.message
             })
         }
@@ -83,14 +86,23 @@ const createBarangTransaksiPembelian = async (req, res) => {
     const data = req.body;
     barangTransaksiPembelianSevice.createBarangTransaksiPembelian(data)
         .then((created) => {
-            return res.status(201).send({
-                status: 'success',
-                data: created
-            })
+            if (!created) {
+                return res.status(404).send({
+                    status: 404,
+                    message: 'Data cannot be created'
+                })
+            }
+            else {
+                return res.status(201).send({
+                    status: 201,
+                    message: 'Data susccesfully created',
+                    data: created
+                })
+            }
         })
         .catch((error) => {
             return res.status(500).send({
-                status: 'error',
+                status: 500,
                 message: error.message
             })
         })
@@ -101,14 +113,23 @@ const updateBarangTransaksiPembelian = async (req, res) => {
     const id = req.params.id;
     barangTransaksiPembelianSevice.updateBarangTransaksiPembelian(data, id)
         .then((updated) => {
-            return res.status(200).send({
-                status: 'success',
-                data: updated
-            })
+            if (!updated) {
+                return res.status(404).send({
+                    status: 404,
+                    message: 'Data cannot be updated'
+                })
+            }
+            else {
+                return res.status(200).send({
+                    status: 200,
+                    message: 'Data susccesfully updated',
+                    data: updated
+                })
+            }
         })
         .catch((error) => {
             return res.status(500).send({
-                status: 'error',
+                status: 500,
                 message: error.message
             })
         })
@@ -118,14 +139,23 @@ const deleteBarangTransaksiPembelian = async (req, res) => {
     const id = req.params.id;
     barangTransaksiPembelianSevice.deleteBarangTransaksiPembelian(id)
         .then((deleted) => {
-            return res.status(200).send({
-                status: 'success',
-                data: deleted
-            })
+            if (!deleted) {
+                return res.status(404).send({
+                    status: 404,
+                    message: 'Data cannot be deleted'
+                })
+            }
+            else {
+                return res.status(200).send({
+                    status: 200,
+                    message: 'Data susccesfully deleted',
+                    data: deleted
+                })
+            }
         })
         .catch((error) => {
             return res.status(500).send({
-                status: 'error',
+                status: 500,
                 message: error.message
             })
         })

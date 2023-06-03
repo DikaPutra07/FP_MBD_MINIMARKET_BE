@@ -3,11 +3,19 @@ const transaksiPembelianService = require('../services/transaksiPembelianService
 const getAllTransaksiPembelian = async (req, res) => {
     transaksiPembelianService.getAllTransaksiPembelian()
         .then((data) => {
-            res.status(200).json({
-                status: 200,
-                message: 'Success',
-                data: data
-            });
+            if (!data) {
+                res.status(404).json({
+                    status: 404,
+                    message: 'Data not found'
+                })
+            }
+            else {
+                res.status(200).json({
+                    status: 200,
+                    message: 'Data found',
+                    data: data
+                });
+            }
         }
     ).catch((error) => {
         res.status(500).json({
@@ -30,7 +38,7 @@ const getTransaksiPembelianById = async (req, res) => {
             else
             res.status(200).json({
                 status: 200,
-                message: 'Success',
+                message: 'Data found',
                 data: data
             });
         })
@@ -46,17 +54,20 @@ const getTransaksiPembelianByPegawaiId = async (req, res) => {
     const pegawai_id = req.params.pegawai_id;
     transaksiPembelianService.getTransaksiPembelianByPegawaiId(pegawai_id)
         .then((data) => {
-            if (!data)
+            if (!data){
                 res.status(404).json({
                     status: 404,
                     message: 'Data not found'
                 });
-            else
+            }
+            else {
                 res.status(200).json({
                     status: 200,
-                    message: 'Success',
+                    message: 'Data found',
                     data: data
                 });
+            }
+
         })
         .catch((error) => {
             res.status(500).json({
@@ -78,7 +89,7 @@ const getTransaksiPembelianBySupplierId = async (req, res) => {
             else
                 res.status(200).json({
                     status: 200,
-                    message: 'Success',
+                    message: 'Data found',
                     data: data
                 });
         })
@@ -94,11 +105,19 @@ const createTransaksiPembelian = async (req, res) => {
     const data = req.body;
     transaksiPembelianService.createTransaksiPembelian(data)
         .then((data) => {
-            res.status(200).json({
-                status: 200,
-                message: 'Success',
-                data: data
-            });
+            if (!data){
+                res.status(404).json({
+                    status: 404,
+                    message: 'Data cannot be created'
+                });
+            }
+            else {
+                res.status(201).json({
+                    status: 201,
+                    message: 'Data successfully created',
+                    data: data
+                });
+            }
         }
     ).catch((error) => {
         res.status(500).json({
@@ -117,12 +136,12 @@ const updateTransaksiPembelian = async (req, res) => {
             if (!data)
                 res.status(404).json({
                 status: 404,
-                message: 'Data not found'
+                message: 'Data cannot be updated'
             });
             else
             res.status(200).json({
                 status: 200,
-                message: 'Success',
+                message: 'Data successfully updated',
                 data: data
             });
         }
@@ -142,12 +161,12 @@ const deleteTransaksiPembelian = async (req, res) => {
             if (!data)
                 res.status(404).json({
                 status: 404,
-                message: 'Data not found'
+                message: 'Data cannot be deleted'
             });
             else
             res.status(200).json({
                 status: 200,
-                message: 'Success',
+                message: 'Data successfully deleted',
                 data: data
             });
         }
