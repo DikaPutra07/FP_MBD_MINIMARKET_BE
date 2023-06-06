@@ -1,0 +1,995 @@
+id,jenis_barang_id,nama,harga,jumlah_stok
+1,1,"ACT II Xtreme Butter Microwave Popcorn, 2.75 Oz, 12 Count",65700,2.75
+2,1,"Smartfood White Cheddar Popcorn, 6.75 oz Bag",42800,6.75
+3,1,"Great Value Extra Butter Microwave Popcorn, 2.55 Oz, 24 Count",105300,2.55
+4,1,"Smartfood Popcorn, White Cheddar, 9.75 oz",49800,9.75
+5,1,"ACT II Butter Lovers Microwave Popcorn, 2.75 Oz, 12 Ct",65700,2.75
+6,1,"Great Value Extra Butter Flavored Microwave Popcorn, 2.55 Oz, 12 Count",59400,2.55
+7,1,"CRUNCH 'N MUNCH Buttery Toffee Popcorn with Peanuts, 12 oz.",29400,12
+8,1,"Orville Redenbacher's Classic Movie Theater Butter Microwave Popcorn Value Size, 3.29 oz, 12 count",78800,3.29
+9,1,"Angie's BoomChickaPop Sweet & Salty Kettle Corn Popcorn, Pre-Popped Popcorn Bag, 7 Oz",35700,7
+10,1,"Crunch 'n Munch Caramel Popcorn with Peanuts, 12 Oz",29400,12
+11,2,"Great Value Fully Cooked Chicken Strips, 25 oz",89800,25
+12,2,"Tyson Fully Cooked and Breaded Chicken Patties, 1.62 lb Bag (Frozen)",69800,1.62
+13,2,"Beef Stew Meat, 0.68 - 1.31 lb",70000,1.31
+14,2,"Great Value Fully Cooked Homestyle Meatballs, Frozen, 32 oz",62400,32
+16,2,On-Cor Barbecue Sauce & Boneless Rib Shaped Patties 26 oz. Box,39700,26
+17,2,On-Cor Traditionals Gravy & Salisbury Steaks 28 oz. Box,39700,28
+18,2,"SeaPak Butterfly Shrimp with Crispy Breading, Easy to Bake, Frozen, 20 oz",103400,20
+19,2,"Great Value Frozen Cooked Medium Peeled & Deveined Tail-on Shrimp, 12 oz (41-60 Count per lb)",64800,12
+20,2,"Great Value Chicken Breast Patties Breaded, 23.8 oz (Frozen)",57400,23.8
+21,3,"Doritos Nacho Cheese Flavored Tortilla Chips, Party Size, 14.5 oz Bag",49800,14.5
+22,3,"Lay's Classic Potato Chips, Party Size, 13 oz Bag",54800,13
+23,3,Ruffles Potato Chips Cheddar & Sour Cream Flavored 12.5 Oz,49800,12.5
+24,3,"Fritos Original Corn Chips, 9.25 oz",32800,9.25
+25,3,"Tostitos Scoops! Tortilla Chips Party Size, 14.5 oz Bag",47800,14.5
+26,3,"Cheetos Puff Cheese Flavored Snack, 8 oz",29800,8
+27,3,"Funyuns Onion Flavored Rings, 6 oz Bag",53200,6
+28,3,"SunChips Harvest Cheddar Flavored Whole Grain Snacks, 7 oz. Bag",39400,7
+29,3,"Pringles Potato Crisps Chips, Sour Cream and Onion, 5.5 Oz, Can",24000,5.5
+30,3,"Smartfood White Cheddar Popcorn, 6.75 oz Bag",42800,6.75
+32,4,"Sunkist Orange Soda, 12 fl oz cans, 12 pack",44800,12
+33,4,"Canada Dry Ginger Ale Soda, 12 fl oz cans, 12 pack",44800,12
+36,4,"A&W Caffeine-Free, Low Sodium Root Beer Soda Pop, 12 Fl Oz, 12 Pack Cans",44800,12
+40,4,"7UP Lemon Lime Soda, 12 fl oz cans, 12 pack",44800,12
+41,5,"Great Value Pure Granulated Sugar, 4 lb",28400,4
+42,5,"Great Value Granulated Sugar, 10 lbs",61200,10
+43,5,"Great Value Light Brown Sugar, 32 oz",17000,32
+44,5,"C & H Pure Granulated White Cane Sugar, 4 lb",34600,4
+45,5,"Great Value Confectioners Powdered Sugar, 32 oz",17000,32
+46,5,"C&H Premium Pure Cane Dark Brown Sugar, 2 lb",28800,2
+47,5,"Great Value Honey, 12 oz Plastic Bear Bottle",39400,12
+48,5,"C&H Premium Pure Cane Light Brown Sugar, 2 lb",28800,2
+49,5,"HERSHEY'S, Chocolate Syrup, Baking Supplies, 24 oz, Bottle",28700,24
+50,5,"C&H Premium Cane Powdered Sugar, 2 lb",28800,2
+51,6,"E & J Gallo VS Brandy, 1.75 L",222700,1.75
+52,6,"E & J Gallo VSOP Brandy, 750 mL",122700,750
+53,6,"E & J Gallo VS Brandy, 750 mL",99800,750
+54,6,E&j Gallo Brandy Peach 750ml,109800,750
+55,6,"Christian Brothers Amber Vs Grape Brandy , 1.75 L Bottle",179800,1.75
+56,6,"E & J Gallo VSOP Brandy, 750 mL",129900,750
+57,6,"E & J Gallo VS Brandy, 750 mL",99800,750
+58,6,"Hennessy VS Cognac, 750 mL",434799,750
+59,6,Hennessy Privilege VSOP Cognac 750ml,579700,750
+60,6,Hennessy V.S Cognac Flask Shape- 375ml,234800,375
+61,7,"Mott's 100% Original Apple Juice, 8 fl oz bottles, 6 pack",36200,8
+62,7,"Mott's 100% Apple White Grape Juice, 8 fl oz bottles, 6 pack",36200,8
+63,7,"Capri Sun Fruit Punch Flavored Juice Drink Blend, 10 ct Box, 6 fl oz Pouches",29800,6
+64,7,"Capri Sun Fruit Punch, Strawberry Kiwi and Pacific Cooler Flavored Juice Drink Blend Variety Pack, 30 ct Box, 6 fl oz Pouches",86800,6
+65,7,"Pure Life Purified Water, 8 Fl Oz, Plastic Bottled Water (12 Pack)",24200,8
+66,7,"Kool-Aid Jammers Tropical Punch, Grape & Cherry Artificially Flavored Drink Variety Pack, 30 ct Box, 6 fl oz Pouches",65300,6
+67,7,"Capri Sun Fruit Punch Juice Drink Blend, 30 ct Box, 6 fl oz Pouches",86800,6
+68,7,"Gatorade Thirst Quencher Sports Drink Variety Pack, 12 oz, 18 Pack Bottles",102800,12
+69,7,"Yoo-hoo Chocolate Drink, 6.5 fl oz boxes, 32 pack",99800,6.5
+70,7,"Horizon Organic 1% Lowfat UHT Chocolate Milk, 8 Oz., 12 Count",125300,8
+72,8,"Freshness Guaranteed Heat & Eat Chicken Alfredo, 11 oz",55000,11
+74,8,"Bob Evans Original Mashed Potatoes, Refrigerated Dinner Sides, 24 oz, Pack of 1",36400,24
+75,8,"Freshness Guaranteed Original Macaroni Salad, 32 oz",39400,32
+76,8,"Freshness Guaranteed Deviled Egg Potato Salad, 16 oz",38400,16
+77,8,"Freshness Guaranteed White Meat Chicken Salad with Cranberries, Celery, and Pecans, 12 oz",57400,12
+78,8,"Van's Kitchen Chicken Egg Rolls 13.5 oz, 5 count, Tray",47699,13.5
+79,8,"Freshness Guaranteed Heat & Eat Chicken Lo Mein, 14 oz",55000,14
+81,9,"Bone-In Pork Loin Country Style Ribs, 2.3 - 3.8 lb",128400,3.8
+82,9,"Great Value Classic Olive Oil, 17 fl oz",28800,17
+83,9,"Great Value Kosher Ground Cumin, 2.5 Oz",12800,2.5
+84,9,"Great Value Paprika, 2.5 oz",10000,2.5
+85,9,"Great Value Iodized Salt, 26 oz",5400,26
+86,9,"Freshness Guaranteed Diced Yellow Onions, 8 oz",27799,8
+87,9,"Great Value Light Brown Sugar, 32 oz",17000,32
+88,9,"Great Value Organic Tomato Ketchup, 20 oz",19800,20
+89,9,"Great Value Original Barbecue Sauce, 18 oz",13400,18
+90,9,"Pork Butt Country Style Ribs Bone-In, 2.18 - 3.5 lb",93500,3.5
+91,10,"Freshness Guaranteed Sliced Plain Italian Bread, 14 oz",14700,14
+92,10,"Italian Garlic Herb Bread, 16 oz",17800,16
+93,10,"Schwebel's 'Taliano Italian Bread Loaf, 16 oz, 17 Count",26300,16
+94,10,"D'Italiano Italian Bread, No Seeds, 20 oz",28800,20
+95,10,"Nickles Italian Bread Loaf, 20 oz, 18 Count",26400,20
+96,10,"Pepperidge Farm Italian White Seedless Bread, 20 oz. Bag",33800,20
+97,10,"Wonder Bread Italian Bread, Italian-Inspired Wide Loaf White Bread, 20 oz Loaf",25600,20
+98,10,"D'Italiano Unseeded Italian Bread with Reduced Calories, 16 oz",28800,16
+99,10,"Pepperidge Farm Italian with Sesame Seeds Bread, 20 oz. Bag",33800,20
+100,10,"Nature's Own Perfectly Crafted Brioche Style Bread, Thick Sliced Non-GMO Brioche Bread, 22 oz Loaf",32400,22
+101,11,"Minute Maid Fruit Punch, Made w/ Real Fruit Juice, 59 fl oz",16800,59
+102,11,"Minute Maid Berry Punch Flavored Fruit Juice, 59 fl oz",16800,59
+103,11,"Minute Maid Strawberry Lemonade, Fruit Drink, 59 fl oz",16800,59
+104,11,"Tropicana Pure Premium, Original No Pulp 100% Orange Juice, 52 oz Bottle",37800,52
+105,11,"Simply Orange Pulp Free Orange Juice, 89 fl oz",64800,89
+106,11,"Minute Maid Premium Peach, Fruit Juice Drink, 59 fl oz",16800,59
+107,11,Tropicana Pure Premium Original No Pulp 100% Orange Juice 89 fl. oz. Jug,61800,89
+108,11,"Simply Lemonade, All Natural Non-GMO, 52 fl oz",25800,52
+109,11,"Minute Maid Premium Watermelon, Fruit Juice Drink, 59 fl oz",16800,59
+110,11,"Minute Maid Grape Punch Carton, 59 fl oz",16800,59
+111,12,"Tenderbird Frozen Chicken Wing Sections, 3 lb (Frozen)",168600,3
+112,12,"Smithfield Extra Meaty Fresh Pork Back Ribs, 2.1 - 3.8 lb",89400,3.8
+113,12,Koch Foods Chicken Wing Sections 3 lb (Frozen),179800,3
+114,12,"Beef Choice Angus Ribeye Steak, 1.5 - 2.6 lb",203600,2.6
+115,12,"Fresh Cooked Large Peeled, Deveined, Tail-On Shrimp, 1 lb (31-40 Count per lb)",119800,1
+116,12,"Sam's Choice 100% Angus Beef Burgers, 12ct, 4lb (Frozen)",162300,4
+117,12,"Butterball All Natural Fresh 85%/15% Lean Ground Turkey, 1.25 lbs.",63200,1.25
+118,12,"Great Value Beef Burgers, 75% Lean/25% Fat, 32 Count, 8 lb (Frozen)",238700,8
+121,13,"Fresh Cravings Restaurant Style Mild Salsa, 16 oz",34800,16
+122,13,"Fresh Cravings Restaurant Style Medium Salsa, 16 oz",34800,16
+123,13,"Fresh Cravings Restaurant Style Hot Salsa, 16 oz",34800,16
+124,13,"Freshness Guaranteed Guacamole, Mild, 8 oz",31400,8
+125,13,"Freshness Guaranteed Guacamole, Mild, 15 oz",52800,15
+126,13,"Freshness Guaranteed Guacamole, Spicy, 8 oz",31400,8
+127,13,"Freshness Guaranteed Mild Pico De Gallo, 10 Oz",32400,10
+128,13,"Marzetti Veggie Dip Ranch, 14 oz",41200,14
+129,13,"Marzetti Old Fashioned Caramel Dip, 16.0 oz",41800,16.0
+130,13,"WHOLLY Guacamole Family Size Classic Bowl, Mild, 15 oz",56800,15
+132,14,"Great Value Original Crescent Rolls, 8 oz, 8 Count",17800,8
+133,14,"Pillsbury Grands! Flaky Layers Original Biscuits, 8 ct., 16.3 oz.",29800,16.3
+135,14,"Pillsbury Flaky Layers Biscuits Butter Tastin' Canned Biscuits, 5 ct., 6 oz.",14800,6
+136,14,"Pillsbury Grands! Southern Homestyle Buttermilk Biscuits, 8 ct., 16.3 oz.",29800,16.3
+137,14,"Pillsbury Original Crescent Rolls, Value 2-pack (16 ct.), 16 oz.",56800,16
+138,14,"Great Value Jumbo Buttermilk Biscuits, 16 oz, 8 Count",14800,16
+140,14,"Pillsbury Ready To Bake Refrigerated Chocolate Chip Cookie Dough, 24 ct., 16 oz.",36800,16
+141,15,"Great Value Hickory Smoked Bacon, 12 oz",37200,12
+142,15,"Great Value Hickory Smoked Bacon, Mega Pack, 24 oz",68400,24
+143,15,"Great Value Thick Sliced Bacon Hickory Smoked, 16 oz",44800,16
+144,15,"Great Value Sliced Hickory Smoked Original Bacon, 16 oz",44800,16
+145,15,"Great Value Naturally Hickory Smoked Thick Sliced Bacon Mega Pack, 24 oz",68400,24
+146,15,"Great Value Naturally Hickory Smoked Fully Cooked Thick Cut Bacon, 2.1 oz",37800,2.1
+147,15,"Oscar Mayer Naturally Hardwood Smoked Bacon Mega Pack, 22 oz Pack, 23-25 slices",104800,22
+148,15,"Wright Brand Thick Cut Hickory Real Wood Smoked Bacon, 1.5 lb",89800,1.5
+149,15,"Farmland Naturally Hickory Smoked Thick Cut Bacon, 16 oz",67200,16
+150,15,"Oscar Mayer Naturally Hardwood Smoked Bacon, 16 oz Pack, 17-19 slices",79800,16
+151,16,"Gatorade Cool Blue Thirst Quencher Sports Drink, 12 oz, 12 Pack Bottles",69800,12
+152,16,"Gatorade Thirst Quencher Variety Pack Sports Drink, 12 oz, 18 Pack Bottles",102800,12
+153,16,"(12 Bottles) Gatorade Thirst Quencher Sports Drink, Fruit Punch, 12 fl oz",69800,12
+154,16,"Gatorade Thirst Quencher Sports Drink Variety Pack, 12 oz, 18 Pack Bottles",102800,12
+155,16,"POWERADE Mountain Berry Blast, ION4 Electrolyte Enhanced Fruit Flavored Sports Drink w/ Vitamins B3, B6, and B12, Replenish Sodium, Calcium, Potassium, Magnesium, 20 fl oz, 8 Pack",52800,20
+156,16,"Gatorade G Zero Sugar 3 Flavor Variety Pack Thirst Quencher Sports Drink, 12 oz, 18 Pack Bottles",102800,12
+157,16,"(12 Count) Gatorade Frost Thirst Quencher Sports Drink, Glacier Freeze, 12 oz Bottles",69800,12
+158,16,"Gatorade Fruit Punch Thirst Quencher Sports Drink, 20 oz, 8 Pack Bottles",64800,20
+159,16,"Gatorade Thirst Quencher Bottled Drink, 20oz 8pk",64800,20
+160,16,"Gatorade Lemon Lime Thirst Quencher Sports Drink, 12 oz, 12 Pack Bottles",69800,12
+161,17,"La Banderita Yellow Corn 6"" Tortillas, 30 ct",22400,30
+162,17,"La Banderita Casera Corn 6"" Tortillas, 36 ct",19800,36
+163,17,Guerrero White Corn Tortillas 25 oz. Package,23400,25
+164,17,"Guerrero White Corn Tortillas, 66.56 Oz, 80 Count",36800,66.56
+165,17,"La Banderita White Corn Tortillas, 30 count, 24.9 oz",22400,24.9
+166,17,"Mission Extra Thin Yellow Corn Tortillas, 16 oz, 24 Count",19800,16
+167,17,"Great Value 6"" White Corn Tortilla 30ct",18400,30
+168,17,"Mission Street Taco Corn Tortillas, 12.6 Oz, 24 Count",22400,12.6
+169,17,"Great Value 6"" White Corn Tortilla 80ct",28400,80
+170,17,La Banderita Yellow Corn Tortillas 80ct,39800,80
+171,18,"Marketside Coconut Mini Creme Pie, 7 oz",29800,7
+172,18,"Marketside Chocolate Mini Creme Pie, 7 oz",29800,7
+173,18,"Marketside Banana Mini Creme Pie, 7 oz",29800,7
+174,18,"Freshness Guaranteed Lemon Meringue Pie, 8 inch, 24 oz",69800,24
+175,18,"Freshness Guaranteed Triple Chocolate Creme Pie, 24 oz",69800,24
+176,18,"Oreo Cookies 'N Creme Mousse Dessert, 16 oz",59800,16
+177,18,"Patti LaBelle Bread Pudding, 27 oz",69200,27
+178,18,"Patti LaBelle Banana Pudding, 5.75oz",22400,5.75
+179,18,Patti LaBelle Banana Pudding 36oz,108800,36
+180,18,"Freshness Guaranteed Sea Salt Caramel Chocolate Creme Pie, 24 oz",69800,24
+181,19,"AriZona Green Tea with Ginseng and Honey, 128 fl oz",34800,128
+182,19,"(12 Cans) Arizona Green Tea with Ginseng and Honey, 11.5 fl oz",49800,11.5
+183,19,"(12 Cans) Arizona Arnold Palmer Lite Half & Half Iced Tea Lemonade, 11.5 fl oz",49800,11.5
+184,19,"AriZona Sun Brewed Style Iced Tea with Lemon Flavor, 128 fl oz",34800,128
+185,19,"AriZona Southern Style Real Brewed Sweet Tea, 128 fl oz",34800,128
+186,19,"(12 Cans) Arizona Southern Style Real Blend Sweet Tea, 11.5 fl oz",49800,11.5
+187,19,"Arizona Arnold Palmer Lite Half & Half Iced Tea Lemonade, 128 fl oz",34800,128
+188,19,"AriZona Diet Green Tea with Ginseng, 128 fl oz",34800,128
+189,19,"Arizona Real Brewed Southern Style Sweet Tea, 23 Fl. oz.",8200,23
+190,19,"Arizona Green Tea with Ginseng & Honey, 23 fl oz",8200,23
+191,20,"Slim Jim Original Smoked Snack Stick, 0.28 oz, 26 counts",66400,0.28
+192,20,"Slim Jim Snack-Sized Smoked Meat Stick, Original Flavor, Keto Friendly Snack Stick, 0.28 Oz, 46 Count",112800,0.28
+193,20,"Slim Jim Original Smoked Snack Stick, 0.28 oz, 14 count",39800,0.28
+194,20,"Slim Jim Mild Smoked Snack Stick Snack Size, 0.28 oz, 14 count",39800,0.28
+195,20,"Great Value Original Snack Sticks, 3.92 oz, 14 Count",31300,3.92
+196,20,"Slim Jim Original Giant Smoked Snack Sticks, Keto Friendly Smoked Meat Stick, 0.97 Oz, 1 Ct",15200,0.97
+197,20,"Jack Link's Original Beef Stick & Cheese, 0.8 oz, 9 Count.  Made with 100% Beef and Real Wisconsin Cheese",77800,0.8
+198,20,"Cattleman's Cut Takis Fuego Meat Sticks, 3 Oz",27799,3
+199,20,"Slim Jim Original Monster Smoked Snack Stick, Smoked Meat Stick, 1.94 Oz, 1 Ct",26400,1.94
+200,20,"Country Archer Original Beef Mini Stick Bag, 0.5 Oz, 8 Count",69800,0.5
+201,21,"Hidden Valley Golden Sweet and Tangy Original Ranch Secret Sauce, 12 oz Squeezable Bottle",42400,12
+202,21,"Marie's Chunky Blue Cheese Dressing + Dip, 12 fl oz",35000,12
+203,21,"Litehouse Family Size Homestyle Ranch Dressing & Dip, 20 fl. oz.",51200,20
+204,21,"Maries Creamy Ranch Dressing + Dip, 12 fl oz",35000,12
+205,21,"Marie's Caesar Dressing, 12 fl oz",35000,12
+206,21,"Litehouse Family Size Chunky Blue Cheese Dressing & Dip, 20 fl. oz.",51200,20
+207,21,"Bolthouse Farms Dressing, Classic Ranch Yogurt Dressing, 12 fl. oz.",36400,12
+208,21,"Bolthouse Farms Cucumber Ranch Dressing, Yogurt Dressing, 12 oz.",36400,12
+209,21,"Bolthouse Farms Dressing, Cilantro Avocado Creamy Yogurt Dressing, 12 fl. oz.",36400,12
+211,22,"Duncan Hines Signature Perfectly Moist Strawberry Supreme Cake Mix, 15.25 oz",16400,15.25
+212,22,"Betty Crocker Super Moist Devil's Food Cake Mix, 15.25 oz",18800,15.25
+213,22,"Betty Crocker Delights Super Moist Red Velvet Cake Mix, 15.25 oz.",20000,15.25
+214,22,Krusteaz Cinnamon Swirl Crumb Cake & Muffin Mix 21 OZ. Box,34700,21
+215,22,"Duncan Hines Butter Golden Cake Mix, 15.25 oz",16400,15.25
+216,22,"Duncan Hines Milk Chocolate Brownie Mix, 18 oz",16200,18
+217,22,"Martha White Blueberry Muffin Mix, 7 Oz Bag",12600,7
+218,22,"Betty Crocker Cinnamon Streusel Muffin and Quick Bread Mix, 13.9 oz",29000,13.9
+219,22,"Betty Crocker Delights Supreme Chocolate Chunk Brownie Mix, 18 oz.",26200,18
+220,22,"Pillsbury Strawberry Frosting, 16 Oz Tub",20800,16
+221,23,"Great Value Purified Drinking Water, 16.9 Fl Oz, 40 Count Bottles",53600,16.9
+222,23,"Great Value 100% Apple Juice, 96 Fl. Oz.",21800,96
+223,23,"Great Value No Added Sweeteners 100% Apple Juice, 64 Fl. Oz.",16200,64
+224,23,"Great Value Pineapple Soda, 2 Liter Bottle",9600,2
+225,23,"Great Value Cranberry Pineapple Juice Cocktail, 64 fl oz",24800,64
+226,23,"Great Value Purified Drinking Water, 16.9 Fl Oz, 24 Count",34800,16.9
+227,23,"Great Value All Natural Sour Cream, 16 oz Tub",19600,16
+228,23,"Great Value Caffeine-Free Ginger Ale, 2 Liter Bottle",9600,2
+229,23,"Great Value Ginger Ale Soda Pop, 12 fl oz, 12 Pack Cans",36800,12
+230,23,"Great Value Cranberry Mango Juice Cocktail, 64 fl oz",25400,64
+231,24,"Great Value Half & Half, 32 fl oz",24800,32
+232,24,"Great Value Ultra-Pasteurized Real Heavy Whipping Cream, 32 Oz",43800,32
+233,24,"Great Value Ultra-Pasteurized Real Heavy Whipping Cream, 16 Oz",24600,16
+234,24,"Great Value Original Coffee Creamer, 35.3 oz",49800,35.3
+235,24,"Great Value Half and Half, 64 fl oz",47800,64
+236,24,"Great Value Sweet Cream Coffee Creamer, 32 fl oz",39800,32
+238,24,Nestle Coffee mate French Vanilla Liquid Coffee Creamer 64 fl oz,64800,64
+239,24,"International Delight Hazelnut Coffee Creamer, 32 Oz.",35200,32
+240,24,"International Delight Caramel Macchiato Coffee Creamer, 32 Oz.",35200,32
+241,25,"Bud Light Beer, 24 Pack Beer, 12 FL OZ Cans, 4.2% ABV",209800,12
+242,25,"Busch Beer, 24 Pack Beer, 12 FL OZ Cans, 4.3 % ABV",164800,12
+243,25,"Natural Light Beer, 24 Pack Beer, 12 FL OZ Cans, 4.2% ABV",164800,12
+244,25,"Michelob ULTRA Light Beer, 24 Pack Beer, 12 FL OZ Cans, 4.2 % ABV",229800,12
+245,25,"Miller Lite Lager Beer, 24 Pack, 12 fl oz Cans, 4.2% ABV",209800,12
+246,25,"Coors Light Lager Beer, 24 Pack, 12 fl oz Cans, 4.2% ABV",219800,12
+247,25,"Bud Ice Beer, 30 Pack 12 fl. oz. Cans, 5.5% ABV",189800,12
+248,25,"Budweiser Beer, 24 Pack Beer, 12 FL OZ Cans, 5% ABV",209800,12
+249,25,"Yuengling Lager, 24 Pack Beer, 12oz Cans",224800,12
+250,25,"Bud Light Beer, 12 Pack 16 fl. oz. Cans, 4.2% ABV",129800,16
+252,26,"Great Value Pure Granulated Sugar, 4 lb",28400,4
+253,26,"International Delight Almond Joy Coffee Creamer, 32 Oz.",35200,32
+254,26,"Dunkin Extra Extra Coffee Creamer, 32 Oz.",35800,32
+255,26,"Torani Original Salted Caramel Syrup, Authentic Coffeehouse Syrup, 12.7 oz",42699,12.7
+256,26,"Great Value Original Dairy Whipped Topping, 13 oz",32800,13
+257,26,"Great Value Non-Dairy Hazelnut Coffee Creamer, 15 oz",29800,15
+258,26,Nestle Coffee mate French Vanilla Liquid Coffee Creamer 32 fl oz,39800,32
+259,26,"Torani Puremade Caramel Sauce, Authentic Coffeehouse Sauce and Dessert Topping, 16.5 oz",49800,16.5
+260,26,"Great Value Ultra-Pasteurized Real Heavy Whipping Cream, 32 Oz",45800,32
+261,27,"Great Value Evaporated Milk, 12 Fl Oz",17000,12
+263,27,"Great Value Sweetened Condensed Milk, 14 oz",24400,14
+264,27,"Eagle Brand Sweetened Condensed Milk, 14 oz",31200,14
+265,27,"Nestle Carnation Evaporated Milk, Vitamin D Added 5 fl oz",13799,5
+266,27,Nestle La Lechera Sweetened Condensed Milk 14 oz,31200,14
+267,27,"Great Value Instant Nonfat Dry Milk, 3.2 oz, 10 count",116600,3.2
+268,27,SACO BUTTERMILK 12OZ,52400,12
+269,27,"Great Value Instant Nonfat Dry Milk, 64 oz",230000,64
+270,27,"Great Value Instant Nonfat Dry Milk, 25.6 oz",98600,25.6
+271,28,"Clear American Peach Sparkling Water, 33.8 fl oz",7000,33.8
+272,28,"Clear American Black Cherry Sparkling Water, 33.8 fl oz",7000,33.8
+273,28,"Clear American Sparkling Water, Blackberry Lemonade, 33.8 fl oz",7000,33.8
+274,28,"Clear American Sparkling Water, Wild Cherry, 33.8 fl oz",7000,33.8
+275,28,"Clear American Cherry Lime Raspberry Sparkling Water, 33.8 Fl Oz, Bottle",7000,33.8
+276,28,"Clear American Fuji Apple Sparkling Water, 33.8 fl oz",7000,33.8
+277,28,"Clear American Sparkling Water, Cherry Vanilla, 33.8 fl oz",7000,33.8
+278,28,"Clear American Sparkling Water, Tangerine Mango, 33.8 fl oz",7000,33.8
+279,28,"Clear American Sparkling Water, Mandarin Orange, 33.8 fl oz",7000,33.8
+280,28,"Clear American Sparkling Water, Key Lime 33.8 fl oz",7000,33.8
+281,29,"Great Value Vanilla Flavored Ice Cream Sandwiches, 42 fl oz, 12 Count",26200,42
+282,29,"Fun Pops Fruit Flavored Freezer Pops, 2.5 oz, 36 count",29800,2.5
+283,29,"Great Value Fudge Bars, 2.5 fl oz, 12 Count",24800,2.5
+284,29,"Cool Whip Original Whipped Cream Topping, 8 oz Tub",19800,8
+285,29,"Marie Callender's Dutch Apple Pie, 38 Oz (Frozen)",69800,38
+286,29,"Great Value Neapolitan Ice Cream Sandwiches, 42 oz, 12 Count",26200,42
+287,29,"Great Value Cookies & Cream Ice Cream, 48 fl oz",22400,48
+289,29,"Great Value Macaron Assortment flavors: raspberry, coffee, chocolate, pistachio, and lemon. 5.4 oz, 12 Count",62400,5.4
+290,29,"Poppies Mini Cream Puffs, 17.6 Oz, 40 Count",52400,17.6
+291,30,"Sensible Portions Gluten-Free Sea Salt, Zesty Ranch & Cheddar Cheese Garden Veggie Straws, 0.75 oz, 12 Count Polybag",76800,0.75
+292,30,"Sensible Portions Gluten-Free Sea Salt Garden Veggie Straws, 14 oz",49800,14
+293,30,"Great Value Freeze Dried Fruit Crisps, Variety Pack, 6 Count, 2.26 oz.",54800,2.26
+295,30,"Sensible Portions Gluten-Free Zesty Ranch Garden Veggie Straws, 14 oz.",49800,14
+296,30,"Wonderful Pistachios No Shell, Roasted & Salted, 0.75 Oz, 9 Count",69400,0.75
+297,30,"Sun-Maid Strawberry and Vanilla Yogurt Covered Raisins, Dried Whole Fruit, 6 oz, 6 Ct",28400,6
+298,30,"Belvita Soft Baked Banana Bread Breakfast Biscuits, 1.76 oz, 5 count",38800,1.76
+299,30,"Sheila G's Chocolate Chip Cookie Snack Thins Brownie Brittle, Gluten Free, 4.5 oz",31300,4.5
+300,30,"Mariani Dried Fruit, Vanilla Yogurt Covered Raisins, 7 oz Bag",27799,7
+301,31,"Dole Fruit Bowls Mandarins in Orange Gel, 4.3 Oz Bowls, 4 Cups of Fruit in Gel",29800,4.3
+302,31,"Dole All Natural Mandarin Oranges in Light Syrup, 11 Oz Can",19200,11
+303,31,"Sunripe Candied Red Cherries Drink, 16 Fl. Oz.",59600,16
+306,31,"Fresh Strawberries, 1 lb",26800,1
+307,31,"Clementines, 3lb bag",39800,3
+311,32,"Life Savers Wint-O-Green Breath Mints Hard Candy, Sharing Size - 13 oz",37800,13
+312,32,"Great Value Peppermint Starlight Mints Hard Candy, 10 oz",9800,10
+313,32,Altoids Classic Peppermint Breath Mints Hard Candy - 1.76 oz Tin,24800,1.76
+314,32,Life Savers Wint-O-Green Breath Mints Hard Candy - 6.25 oz Bag,23800,6.25
+315,32,"Andes Crme de Menthe, 4.67 Oz",25800,4.67
+316,32,"Junior Mints Candy, 3.5 Oz",12400,3.5
+317,32,"ICE BREAKERS Sugar Free Mints in Coolmint, 1.5 Ounces",23800,1.5
+318,32,"Life Savers Orange Breath Mint Hard Candy, Sharing Size - 13 oz Bag",37800,13
+319,32,Life Savers Wint-O-Green Sugar Free Breath Mints Hard Candy - 2.75 oz,23800,2.75
+320,32,"Icebreaker Sugar Free, Spearmint Mints, 1.5 oz",23800,1.5
+322,33,"Jet-Puffed Mini Marshmallows, 1 lb Bag",21200,1
+324,33,"Nestle Hot Cocoa Rich Milk Chocolate Flavored Mix Powder, 27.7 OZ C 27.7 oz",52400,27.7
+327,33,"Great Value Milk Chocolate Hot Cocoa Mix, 0.52 Oz, 12 Count, Single Serve Cups",47800,0.52
+329,33,Nesquik Chocolate Flavor Powder Drink Mix Canister 38 oz,85800,38
+330,33,"Swiss Miss Milk Chocolate Hot Cocoa Drink Mix with Marshmallows, 9.18 Oz",22400,9.18
+331,34,"MorningStar Farms Meatless Sausage Patties, Original, 16 Oz, Bag, Frozen",68000,16
+332,34,"House Tofu - Firm, 16.0 oz",16600,16.0
+333,34,Nasoya Organic Super Firm Tofu 16 oz,29800,16
+334,34,"Nasoya Organic Thai Basil Vegetable Dumplings, 9 oz",39800,9
+335,34,"Nasoya Extra Firm Organic Tofu, 14 oz",26400,14
+336,34,Nasoya Egg Roll Wraps 1 lb. Pack,24800,1
+337,34,"Tofurky Slow Roasted Chick'N Lightly Seasoned, 8.0 oz",34300,8.0
+338,34,Nasoya Spicy Kimchi 14 oz,39800,14
+339,34,"MorningStar Farms Meatless Chicken Patties, Buffalo, 10 Oz, Bag, Frozen",48600,10
+340,34,Tofurky Plant-Based Italian Original Sausage 14 oz,54600,14
+345,35,"Great Value Extra Large White Eggs, 18 Ct",40300,18
+346,35,"Eggland's Best Farm Fresh Large, White, Grade A Eggs, 18ct.",41200,18
+351,36,"Freshness Guaranteed Sliced Sourdough Bread Loaf, 24.3 oz",36200,24.3
+352,36,"Freshness Guaranteed Sliced Plain Italian Bread, 14 oz",14700,14
+353,36,"Marketside French Baguette Bread, Bake at Home, 10oz",19700,10
+354,36,"Marketside Italian Loaf Bread, Bake at Home, 10oz",24700,10
+355,36,"Freshness Guaranteed French Bread, 14 oz",14700,14
+356,36,"Freshness Guaranteed Garlic Herb French Bread, 14 oz",17800,14
+357,36,"Italian Garlic Herb Bread, 16 oz",17800,16
+358,36,"Freshness Guaranteed Everything Italian Loaf, 14 oz",17800,14
+359,36,"Freshness Guaranteed Sesame French Bread, 14 oz",17800,14
+360,36,"Pasteleria Los Cidrines Pan Sobao Sweet Bread, 14 oz, 2 ct",21400,14
+361,37,"Jack Links Beef Jerky, Teriyaki, 2.85 oz",49800,2.85
+363,37,"Jack Link's Beef Jerky Original and Teriyaki Variety Pack, 9 count, .9 oz.",185799,.9
+364,37,"Jack Link's Beef Jerky, Teriyaki, 10 oz",185799,10
+365,37,"Jack Link's Beef  Jerky Tender Bites, Teriyaki, 10 oz.",185799,10
+366,37,"Jack Link's Beef Jerky, Original, 10 oz",185799,10
+367,37,"Jack Links Beef Jerky, Sweet & Hot, 2.85 oz",49800,2.85
+368,37,"Old Trapper Beef Jerky, Old Fashioned, 10oz",140000,10
+369,37,"Jack Link's Beef Steak,  Teriyaki, 6ct .8oz Steaks, 4.8oz  Caddie",92800,.8
+370,37,"Jack Link's, Beef Jerky, Peppered, 10 oz",185799,10
+371,38,"REESE'S, THiNS Dark Chocolate Peanut Butter Cups Candy, Individually Wrapped, 3.1 oz, Bag",21400,3.1
+372,38,"Lily's Sour Gummy Worms, Tart 'N Tasty Fruit Flavors, 1.8 oz",29800,1.8
+373,38,"Lily's Gummy Bears Sweet Fruity Friends, 1.8oz",29800,1.8
+374,38,"YORK Peppermint Patties Dark Chocolate Sugar Free Candy, Individually Wrapped, 3 oz, Bag",31800,3
+375,38,Snickers Dark Chocolate Almond Brownie Chocolate Candy Fun Size - 6.93oz,44800,6.93
+376,38,"Albanese Sugar Free Fat Free Gluten Free 12 Flavor Gummi Bears, 3.5 oz",22300,3.5
+377,38,"Sam's Choice Swiss Dark Chocolate with Sea Salt Caramel, 3.5 oz",19800,3.5
+378,38,"Russell Stover Sugar Free Coconut with Stevia  Sweet Coconut in Chocolate Candy, 3 oz. Bag",21800,3
+379,38,"Werthers Original Hard Caramel Candy, 5.5 Oz",25800,5.5
+380,38,"Russell Stover Sugar Free Peanut Butter Cups with Stevia, 3 oz. Bag",21800,3
+383,39,Rosemary Fresh cut .75oz,20800,.75
+384,39,Basil Fresh cut 0.75 oz,20800,0.75
+385,39,Thyme Fresh cut .75oz,20800,.75
+386,39,Sprout House Fresh Cut Mint - 0.75oz,20800,0.75
+388,39,Sprout House Fresh Cut Dill - 0.75oz,20800,0.75
+389,39,"Spice World Minced Garlic, Jar, 8 oz",32700,8
+390,39,Oregano Fresh cut .75oz,20800,.75
+391,40,"Haribo Goldbears Original Gummy Bears Bag, 4 oz",10000,4
+392,40,"Tootsie Roll Fruit Chews Assorted Fruit Flavors, 14.37 Oz",28600,14.37
+393,40,"Nerds Gummy Clusters Candy Stand Up Bag, 8 Oz",34800,8
+394,40,"Haribo Funtastic Mix Gummy Candy, 4 Oz",11200,4
+395,40,"Freshness Guaranteed Drizzled Caramel Popcorn with Candy Corn, 12 oz",59800,12
+396,40,"TWIZZLERS, Twists Strawberry Flavored Chewy Candy, Halloween, 16 oz, Bag",29800,16
+398,40,"Life Savers 5 Flavors Summer Gummy Candy, Sharing Size - 14.5 oz Bag",37800,14.5
+399,40,"Tootsie Roll Chocolate Midgees, 15 Oz",28600,15
+400,40,Haribo Confectionery Rainbow Worms 4oz PB 12x1 CS,10000,4
+401,41,"Oak Leaf Vineyards White Zinfandel Rose Wine - 750ml, American",29800,750
+402,41,Franzia White Zinfandel Pink Wine - 5 Liter,159800,5
+403,41,"Sutter Home White Zinfandel Wine, 187mL Wine Bottles (4 Pack)",64800,187
+404,41,Barefoot Rose Wine California 750 ml,59800,750
+405,41,Oak Leaf Sweets Strawberry Ros Wine - 750ml,29800,750
+406,41,"Chateau Ste. Michelle Columbia Valley Ros Wine, 750 mL Bottle",99800,750
+408,41,"Josh Cellars Ros, 750ml",122700,750
+409,41,Cupcake Vineyards Prosecco Ros Sparkling Wine - 750ml NV Product of Italy,114800,750
+411,42,"Great Value Whole Kernel Corn, Canned Vegetables, 14.5-15 oz",5800,15
+412,42,"Great Value Canned Cut Green Beans, 14.5 oz Can",5800,14.5
+413,42,"Great Value Canned Sweet Peas, 15 oz Can",5000,15
+414,42,"Great Value Canned Sliced Carrots, 14.5 oz Can",6200,14.5
+415,42,"Great Value Canned French Style Green Beans, 14.5 oz Can",5800,14.5
+416,42,"Great Value Canned Diced Potatoes, 15 oz Can",7800,15
+417,42,"Great Value Mushrooms Pieces And Stems, 4 oz, Can",11200,4
+418,42,"Great Value Whole New Potatoes, Canned Potatoes, 15 oz Can",7800,15
+419,42,"Great Value Canned Mixed Vegetables, 15 oz Can",6200,15
+420,42,"Great Value Mixed Vegetable Medley, 14.5 oz Can",6200,14.5
+421,43,"Great Value Unsalted Sweet Cream Butter, 16 oz, 4 Sticks",39800,16
+422,43,"Blue Bonnet Vegetable Oil Spread 4 Sticks, 16 oz",16299,16
+423,43,"Country Crock Original Spread Tub, 45 oz",59300,45
+424,43,"Country Crock Original Spread Tub, 15 oz",34300,15
+425,43,"Imperial Vegetable Oil Spread 16 oz, 4 Sticks",14800,16
+426,43,"Land O Lakes Salted Butter, 1 lb",54800,1
+427,43,"I Cant Believe Its Not Butter! Original Spread, 15 oz",39800,15
+428,43,"Blue Bonnet Vegetable Oil Spread, 45 OZ",44800,45
+429,43,"Blue Bonnet Vegetable Oil Spread, 15 OZ",23400,15
+430,43,"Challenge Butter, Salted Butter, 16 oz, 4 Sticks",49700,16
+431,44,"Great Value All-Purpose Flour, 5LB Bag",21200,5
+432,44,"Great Value All-Purpose Flour, 10LB Bag",36400,10
+433,44,"Gold Medal All Purpose Flour, 5 lb.",38300,5
+434,44,"Great Value Self-Rising Flour, 5LB Bag",19600,5
+435,44,King Arthur Flour Unbleached All-Purpose Flour 5 lb. Bag,44800,5
+436,44,"Great Value Self Rising Flour, 2LB Bag",13400,2
+437,44,GV All Purpose Flour 2LB Bag,11600,2
+439,44,"W-R: Flour Self-Rising Enriched Bleached Pre-Sifted Baking Supply, 5 Lb",29400,5
+440,44,Shawnee Best Yellow Degerminated Self Rising Enriched Corn Meal Mix 5 Lb Bag,31200,5
+441,45,"Great Value Vegetable Oil, 48 fl oz",42699,48
+443,45,"Great Value Canola Oil, 48 fl oz",43700,48
+444,45,Crisco Pure Vegetable Oil 48 fl. oz. Bottle,73400,48
+446,45,"Great Value Extra Virgin Olive Oil, 17 fl oz",50000,17
+447,45,"Bertolli, Original, ExtraVirgin Olive Oil, 16.9 fl oz",62300,16.9
+448,45,"Crisco Gluten Free, Butter Flavor, All Vegetable Shortening Sticks, 20oz",77000,20
+450,45,"Great Value, All Vegetable Shortening, 48 oz Can",63700,48
+451,46,"Snickers Fun Size Halloween Chocolate Candy Bars, 10.59 oz Bag",37800,10.59
+452,46,M&M's Peanut Halloween Fun Size Chocolate Candy - 10.57 oz Bag,37800,10.57
+453,46,"ALMOND JOY, Coconut and Almond Chocolate Snack Size Candy Bars, Halloween, 11.3 oz, Bag",34800,11.3
+454,46,"Brach's Halloween Classic Candy Corn Bag, 16.2 oz",26800,16.2
+455,46,"PAYDAY, Peanut Caramel Snack Size Candy Bars, Halloween, 11.6 oz, Bag",34800,11.6
+456,46,Brach's Mellowcreme Autumn Mix 16.2 oz Bag,26800,16.2
+457,46,"Hershey and Mondelez, Assorted Chocolate, Peanut Butter, Fruit Flavored Snack Size Candy, Halloween, 29.06 oz, Variety Bag (65 Pieces)",99400,29.06
+458,46,"Hershey, Miniatures Chocolate Assortment Candy, Halloween, 13.7 oz, Variety Bag (50 Pieces)",48800,13.7
+459,46,Skittles Shriekers Sour Halloween Gummy Candy Fun Size Bag - 10.72 oz,29800,10.72
+460,46,Skittles & Starburst Halloween Gummy Candy Variety Pack - 100 Ct Bag,109800,100
+461,47,"Great Value Chopped Pecans, 4 oz",45800,4
+462,47,"Great Value Chopped Walnuts, 8 oz",43800,8
+463,47,"Great Value Walnuts Halves & Pieces, 8 oz",39000,8
+464,47,"Great Value Sliced Almonds, 4 oz",28800,4
+465,47,"Great Value Sweetened Coconut Flakes, 14 oz",32700,14
+466,47,"Great Value Sliced Almonds, 16 oz",89800,16
+467,47,"Great Value Chopped Walnuts, 24 oz",111199,24
+468,47,"Great Value Organic Chia Seeds, 32 oz",125700,32
+469,47,"Great Value Halves & Pieces Walnuts Value Pack, 32 oz",147300,32
+470,47,"Badia Organic Ground Flax Seed, 16 Oz",45199,16
+471,48,"Tootsie Roll Pops Assorted Flavors, 10.12 Oz",25800,10.12
+472,48,"JOLLY RANCHER, Assorted Fruit Flavored Hard Candy, Individually Wrapped, 14 oz, Bag",32400,14
+473,48,"Great Value Butterscotch Discs Hard Candy, 10 oz",9800,10
+474,48,"Great Value Peppermint Starlight Mints Hard Candy, 10 oz",9800,10
+475,48,"Dum-Dum Original Pops, 16 Oz.",42400,16
+476,48,"Life Savers Wint-O-Green Breath Mints Hard Candy, Sharing Size - 13 oz",37800,13
+477,48,"Werther's Original Caramel Hard Candies, 2.65 oz.",10000,2.65
+478,48,"Nerds Rainbow Theater Box Candy, 5 oz",12400,5
+479,48,"JOLLY RANCHER Assorted Original Fruit Flavored Hard Candy, Individually Wrapped, 28 oz, Bag",57600,28
+480,48,SWEETARTS Original Candy 5 oz. Box,12400,5
+481,49,"Great Value Steamable Broccoli Florets, Frozen, 12 oz",9800,12
+482,49,"Great Value Steamable Mixed Vegetables, Frozen, 12 oz",8400,12
+483,49,"Great Value Steamable Whole Kernel Corn, Frozen, 12 oz",8400,12
+484,49,"Great Value Pepper and Onion Blend, Frozen Vegetables, 20 oz",24000,20
+485,49,"Great Value Frozen Whole Berry Medley, 16 Oz",34800,16
+486,49,"Great Value Sweet Peas, 12 oz (Frozen)",8400,12
+487,49,"Great Value Steamable Brussels Sprouts, Frozen, 12 oz Bag",12700,12
+488,49,"Great Value Mixed Fruit, Frozen, 16 oz",23400,16
+489,49,"Great Value Cut Green Beans, 12 oz (Frozen)",8400,12
+490,49,"Great Value Steamable Broccoli & Cauliflower, Frozen, 12 oz",10000,12
+491,50,"Great Value Taters, Seasoned, Shredded Potatoes, 2 lbs",18200,2
+492,50,"Great Value Crinkle Cut French Fried Potatoes, 32 oz",19800,32
+493,50,"Great Value Seasoned Potato Hash Brown Patties, Shredded, 1 lb 6.5 oz, 10 Count",26000,6.5
+494,50,"Great Value Seasoned French Fried Potatoes, 32 oz",19800,32
+495,50,"Great Value Southern Style O'Brien Hash Browns with Onions & Peppers, 28 oz (Frozen)",25700,28
+496,50,"Great Value Regular Cut French Fried Potatoes, 32 oz",19800,32
+497,50,"Great Value Southern Hash Browns, 32 oz",25700,32
+498,50,"Great Value Shredded Hash Browns, 26 oz",25700,26
+499,50,"Great Value Steak Cut French Fried Potatoes, 28 oz",19800,28
+500,50,"Checkers Rally's Famous Seasoned Fries, 28 oz (Frozen)",41300,28
+501,51,"Snack Pack Chocolate Pudding Cups, Made with Real Milk, 3.25 oz, 4 Pack",12700,3.25
+502,51,"Snack Pack Chocolate Vanilla Pudding Cups, Made with Real Milk, 3.25 oz, 4 Pack",12700,3.25
+503,51,"Jell-O Original Strawberry Cheesecake Pudding Cups Snack, 4 ct Cups",25200,4
+504,51,Winky Gelatin 42 oz (12 pk 3.5 oz),33800,42
+505,51,"Snack Pack Sugar Free Chocolate Pudding, 3.25 oz, 4 count",12700,3.25
+506,51,"Snack Pack Strawberry and Orange Juicy Gels, 3.25 oz, 4 count",12700,3.25
+507,51,"Jell-O Original Strawberry Ready-to-Eat Jello Cups Gelatin Snack Value Pack, 8 ct Cups",39600,8
+508,51,"Philadelphia Cheesecake Crumble Strawberry Cheesecake Desserts with Graham Crumble, 2 ct Pack",35800,2
+509,51,"Jell-O Temptations Lemon Meringue Pie Pudding Cups Snack, 4 ct Cups",25200,4
+510,51,"Kool-Aid Gels Tropical Punch Jell-O Ready-to-Eat Gelatin Snacks, 4 ct Cups",10000,4
+521,53,"Totino's Party Pizza Pack, Pepperoni Flavored, Frozen Snacks, 40.8 oz, 4 ct",66200,40.8
+522,53,"Great Value Garlic Texas Toast, 11.25 oz, 8 Count",17400,11.25
+523,53,"Jack's Pepperoni, Original Thin Crust Pizza, 14.392 oz (Frozen)",36200,14.392
+524,53,"Totino's Pizza Rolls, Pepperoni Flavored, Frozen Snacks, 24.8 oz, 50 ct",44800,24.8
+525,53,"Great Value Five Cheese Texas Toast, 13.5 oz, 8 Count",17400,13.5
+526,53,"Red Baron Pizza, Classic Crust Pepperoni, 20.60 oz",46800,20.60
+527,53,"Totino's Party Pizza Pack, Combination, Frozen Snacks, 42.8 oz, 4 ct",66200,42.8
+528,53,"Totino's Party Pizza, Pepperoni Flavored, Frozen Snacks, 10.2 oz, 1 ct",18800,10.2
+529,53,"Red Baron Pizza, Classic Crust Four Cheese, 21.06 oz",46800,21.06
+530,53,"Red Lobster Cheddar Bay Frozen Biscuits, 15.66 oz",46200,15.66
+531,54,"OLIPOP A New Kind of Soda, Strawberry Vanilla Sparkling Tonic, 12 fl oz",23800,12
+532,54,"OLIPOP A New Kind of Soda, Root Beer Sparkling Tonic, 12 fl oz",23800,12
+533,54,"OLIPOP A New Kind of Soda, Tropical Punch Sparkling Tonic, 12 fl oz",23800,12
+534,54,"OLIPOP A New Kind of Soda, Orange Squeeze Sparkling Tonic, 12 fl oz",23800,12
+535,54,"OLIPOP A New Kind of Soda, Classic Grape Sparkling Tonic, 12 fl oz",23800,12
+536,54,"OLIPOP A New Kind of Soda, Vintage Cola Sparkling Tonic, 12 fl oz",23800,12
+537,54,"Gatorlyte Rapid Rehydration Electrolyte Beverage, Strawberry Kiwi, 20 oz Bottle",23800,20
+538,54,"Gatorlyte Rapid Rehydration Electrolyte Beverage, Orange, 20 oz Bottle",23800,20
+539,54,"Suja Juice Immunity Defense Shot, Organic Cold Pressed Juice 1.7 oz, with Turmeric and Probiotics 4 Pack",89800,1.7
+540,54,11oz BH Superfood Immunity Boost Smoothie,19800,11
+541,55,"Freshness Guaranteed Snickerdoodle Cookies, 11 oz, 12 Count",24000,11
+542,55,"Freshness Guaranteed Chocolate Chip Cookies, 36 oz, 52 Count",57400,36
+543,55,"Freshness Guaranteed Peanut Butter Cookies, 11 oz, 12 Count",25800,11
+545,55,"Freshness Guaranteed Chocolate Chip Cookies, 14 oz, 10 Count",34700,14
+546,55,"Freshness Guaranteed Chocolate Chip Cookies, 11 oz, 12 Count",25800,11
+547,55,"Marketside Bite Sized Chocolate Chip Cookies, 12 oz, 48 Count",49800,12
+549,55,"Freshness Guaranteed Assorted Harvest Cookies, 21 oz, 45 Count",59800,21
+550,55,"Freshness Guaranteed Oatmeal Raisin Cookies, 14 oz, 10 Count",34700,14
+551,56,"Great Value Parsley Flakes, 0.4 Oz",10000,0.4
+552,56,"Great Value Lemon & Pepper Seasoning, 4.25 oz",10000,4.25
+553,56,"Great Value Italian Seasoning, 0.95 Oz",10000,0.95
+554,56,Louisiana Fish Fry Seasoned Fish Fry Breading Coating Mix 10 oz Bag.,17400,10
+555,56,"Great Value Paprika, 2.5 oz",10000,2.5
+556,56,"Great Value Ground Black Pepper, 3 oz",31200,3
+557,56,"Morton Salt, Iodized, 26 Ounce",12600,26
+558,56,"Shake 'N Bake Parmesan Crusted Seasoned Coating Mix, 4.75 oz Box, 2 ct Packets",35000,4.75
+559,56,"Great Value Kosher Minced Onion, 2.35 Oz",10000,2.35
+560,56,"Great Value Crushed Red Pepper, 1.75 oz",13400,1.75
+561,57,"Great Value Hickory Smoked Bacon, 12 oz",37200,12
+562,57,"Bar S Franks Made with Chicken & Pork, 12 Oz.",10000,12
+563,57,"Great Value Original Premium Sausage Links, 12 oz",27599,12
+564,57,"Great Value Hickory Smoked Bacon, Mega Pack, 24 oz",68400,24
+565,57,"Great Value Thick Sliced Bacon Hickory Smoked, 16 oz",44800,16
+566,57,"Johnsonville Beddar with Cheddar Smoked Sausages, 14 oz, 6 Count",39600,14
+567,57,"Ball Park Bun Size Uncured Beef Hot Dogs, 15 oz, 8 Ct",42200,15
+568,57,"Jimmy Dean Premium Pork Regular Sausage Roll, 16 oz",48200,16
+569,57,"Oscar Mayer Classic Uncured Wieners Hot Dogs, 10 ct. Pack",24800,10
+570,57,"Great Value Original Pepperoni Slices, 6 oz",25800,6
+571,58,"Duncan Hines Chewy Chocolate Fudge Brownie Mix, 18.3 oz",13799,18.3
+572,58,"Jiffy Corn Muffin Mix, 8.5 Oz.",4700,8.5
+573,58,"Red Lobster Cheddar Bay Biscuit Mix, 11.36 oz",23800,11.36
+574,58,"Martha White Blueberry Muffin Mix, 7 Oz Bag",10800,7
+575,58,"Martha White Strawberry Cheesecake Muffin Mix, 7 Oz Bag",10800,7
+576,58,"Betty Crocker Chocolate Chip Cookie Mix, 17.5 oz",24700,17.5
+577,58,"Great Value Spice Cake Mix, 15.25 oz Box",16400,15.25
+578,58,"Martha White Chocolate Chocolate Chip Muffin Mix, 7.4 Oz Bag",10800,7.4
+579,58,"Betty Crocker Peanut Butter Cookie Mix, 17.5 oz",24700,17.5
+580,58,"Pillsbury Funfetti Halloween Cake Mix with Candy Bits, 15.25 Oz Box",17400,15.25
+581,59,"All Natural* 73% Lean/27% Fat Ground Beef Roll, 1 lb",40800,1
+582,59,"Beef Stew Meat Family Pack, 2.15 - 3.0 lb",150700,3.0
+583,59,"Beef Choice Angus Sirloin Tender Steak, 0.6 - 1.62 lb",99100,1.62
+584,59,"All Natural* 80% Lean/20% Fat Ground Beef Chuck Tray, 1 lb",48600,1
+585,59,"All Natural* 73% Lean/27% Fat Ground Beef Roll, 3 lb",114600,3
+586,59,"Beef Bottom Round Steak Thin, 0.34 - 2.0 lb",65000,2.0
+587,59,"All Natural* 93% Lean/7% Fat Lean Ground Beef Tray, 1 lb",58600,1
+588,59,"Beef Chuck Roast, 2.0 - 2.65 lb",129400,2.65
+589,59,"All Natural* 80% Lean/20% Fat Ground Beef Chuck Tray, 2.25 lb",99700,2.25
+590,59,"Beef Cubed Steak, 0.73 - 2.05 lb",81400,2.05
+593,60,"KIND Bars, Oats & Honey Healthy Grain Bars, Gluten free, 1.2 oz, 15 Snack Bars",86199,1.2
+594,60,"Quaker Chewy Granola Bars, Chocolate Chip, 0.84 oz Bars, 24 Count",59200,0.84
+596,60,"Great Value Sweet & Salty Chewy Cashew Granola Bars, 7.4 oz, 6 Count",15800,7.4
+597,60,"HEATH, Milk Chocolate English Toffee Snack Size Candy Bars, Halloween, 11.5 oz, Bag",34800,11.5
+598,60,"Great Value Sweet & Salty Chewy Peanut Granola Bars , Value Pack, 1.24 oz, 12 Count",29800,1.24
+599,60,"Great Value Peanut Butter Wafer Bars, 12 oz, 6 Count",15000,12
+600,60,KIND MIN PBDC DCCC Mini 20CT,143600,20
+601,61,Hidden Valley Ranch Buttermilk Ranch Dip - 12oz net content quantity,33800,12
+602,61,"Heinz Tomato Ketchup, 32 oz Bottle",41600,32
+603,61,"Great Value Yellow Mustard, 20 oz Squeeze Bottle",10000,20
+604,61,"Sweet Baby Ray's Original Barbecue Sauce, 18 oz.",19700,18
+605,61,"Fresh Gourmet Cranberries & Sunflower Kernels, Gluten Free, Salad Topping, 4 oz",41800,4
+606,61,"Hellmann's Real Mayonnaise Condiment Real Mayo Gluten Free, Made With 100% Cage-Free Eggs 30 oz",48800,30
+607,61,"Great Value Sweet Relish, 12 fl oz",11399,12
+608,61,"Great Value Tomato Ketchup, 24 oz",10200,24
+609,61,"Manwich Original Sloppy Joe Sauce, Canned Sauce, 15 OZ",12600,15
+610,61,"Salad Pizazz! Honey Roasted Sunflower Kernals Salad Topping, 6.5 oz, Non-GMO",29800,6.5
+611,62,"Great Value All Natural Sour Cream, 16 oz Tub",19600,16
+612,62,"Daisy Pure and Natural Squeeze Sour Cream, Regular, 14 ounces",25800,14
+613,62,"Daisy Pure and Natural Sour Cream, Regular,16 ounces",23800,16
+614,62,"Dean's, French Onion Dip, 16 oz Tub",24200,16
+615,62,"Price's Green Chili Dip, 12 Oz.",31200,12
+616,62,"Daisy Pure and Natural Sour Cream, Regular, 8 ounces",15800,8
+617,62,"Great Value All Natural Sour Cream, 8 oz Tub",11600,8
+618,62,"Great Value Original Sour Cream, 24 oz Tub",26600,24
+619,62,"Daisy Pure and Natural Sour Cream, Regular, 24 ounces",33800,24
+620,62,"Great Value French Onion Dip, 16 oz Tub",16800,16
+622,63,"Freshness Guaranteed Cut Watermelon, 16 oz",44800,16
+623,63,"Vegetable Medley, 32oz",59800,32
+624,63,"Freshness Guaranteed Cantaloupe Chunks, 16 oz",39700,16
+625,63,"Freshness Guaranteed Watermelon, 10 oz",32400,10
+626,63,"Freshness Guaranteed Pineapple Chunks, 16 oz",44800,16
+627,63,"Vegetable Tray with Buttermilk Ranch Dip, 20 oz",69700,20
+628,63,"Crunch Pak Sweet Apple Slices, 2 oz, 6 Count",49700,2
+629,63,"Taylor Farms Turkey & Cheddar Snack Pack, 6 oz",29700,6
+630,63,"Freshness Guaranteed Cantaloupe, 10 oz",29700,10
+631,64,"Marie Callender's Aged Cheddar Cheesy Chicken & Rice Bowl, Frozen Meals, 12 oz.",29800,12
+632,64,"Marie Callender's Slow Roasted Beef Pot Roast Bowl, Frozen Meals, 11 oz.",29800,11
+633,64,"Totino's Pizza Rolls, Pepperoni Flavored, Frozen Snacks, 24.8 oz, 50 ct",44800,24.8
+634,64,"Banquet Salisbury Steaks & Brown Gravy Family Size, 6 count, 27 oz",35700,27
+635,64,"Great Value Garlic Texas Toast, 11.25 oz, 8 Count",17400,11.25
+636,64,"Banquet Chicken Pot Pie, 7 oz",11800,7
+637,64,"Marie Callender's Swedish Meatballs Bowl, Frozen Meals, 11.5 oz.",29800,11.5
+638,64,"Marie Callender's Chicken Pot Pie Large Size, 15 oz",34800,15
+639,64,Stouffer's Lasagna with Meat & Sauce Frozen Meal 10.5 oz,34800,10.5
+640,64,"Marie Callender's Beef Shepherd's Pie Frozen Meal, 11.5 oz.",29800,11.5
+644,65,"Great Value Pre-Sliced Plain Bagels, 20 oz, 6 Count",19000,20
+645,65,"Great Value Cinnamon Raisin Bagels, 20 oz, 6 Count",19000,20
+648,65,"Thomas Everything Bagels, 6 Pre-Sliced Bagels, 20 Oz",39800,20
+649,65,"Lender's Pre-Sliced Blueberry Bagels, 17.1 oz, 6 Count",24800,17.1
+650,65,"Sam's Choice Everything Bagel, 15 oz, 5 Count",33800,15
+656,66,"Freshness Guaranteed Coconut Crunch Mini Donuts, 14 oz",32400,14
+657,66,"Freshness Guaranteed Glazed Sour Cream Donuts, 20 oz, 8 Count",37600,20
+658,66,"HOSTESS Powdered DONETTES Bag, Sugar Mini Donuts - 10 oz",24800,10
+659,66,"Great Value Donut Variety, Frosted Chocolate & Powdered Sugar, 18.75 oz, 10 Count",35000,18.75
+661,67,"M&M's Peanut Milk Chocolate Candy, Party Size - 38 oz Bag",119800,38
+662,67,"M&M's Milk Chocolate Candy, Party Size - 38 oz Bag",119800,38
+663,67,"Snickers, Twix, Milky Way & More Assorted Chocolate Candy Bar - 50 Ct",69800,50
+664,67,"REESE'S, Miniatures Milk Chocolate Peanut Butter Cups Candy, Halloween, 17.6 oz, Family Pack",67400,17.6
+665,67,"M&M's Peanut Butter Milk Chocolate Candy, Party Size - 34 oz Bag",119800,34
+666,67,"Hershey, Milk and Dark Chocolate Assortment Snack Size Candy, Halloween, 33.43 oz, Bulk Party Pack",119800,33.43
+667,67,M&M's Milk Chocolate Candy Family Size - 19.2 oz Bag,69800,19.2
+668,67,"Snickers, Twix, Milk Way & 3 Musketeers Milk & Dark Chocolates - 30 Ct",44800,30
+669,67,"Reese's, Milk Chocolate Peanut Butter Snack Size Cups Candy, Gluten Free, 0.55 oz, Packs (12 Ct)",23600,0.55
+670,67,"WHOPPERS, Malted Milk Balls Candy, Movie Snack, 5 oz, Box",12400,5
+671,68,"Marketside Roasted Red Pepper Hummus, 10 Oz",26700,10
+672,68,"Marketside Roasted Garlic Hummus, 10 Oz",26700,10
+673,68,"Marketside Classic Hummus, 10 Oz",26700,10
+674,68,"Marketside Everything Hummus, 10 oz",26700,10
+675,68,"Price's Jalapeno Dip, 12 Oz.",31200,12
+676,68,"Price's Green Chili Dip, 12 Oz.",31200,12
+677,68,"Dean's, French Onion Dip, 16 oz Tub",24200,16
+678,68,"Marketside Spinach & Artichoke Dip, 16 Oz",55400,16
+679,68,Fresh Cravings Roasted Red Pepper Hummus 10oz,32700,10
+680,68,"Marketside Buffalo Style Chicken Dip, 11 oz",45400,11
+681,69,"Great Value Fruit & Grain Bars, Variety Pack, 41.6 oz, 32 Count",64600,41.6
+682,69,"Kellogg's Rice Krispies Treats Marshmallow Snack Bars, Original, 16 Ct, 12.4 Oz, Box",47200,12.4
+684,69,"Trix Breakfast Cereal Treat Bars, Value Pack, 16 ct",65400,16
+685,69,"Kellogg's Froot Loops Breakfast Cereal Bars, Original, 18 Ct, 12.6 Oz, Box",63400,12.6
+686,69,"Cinnamon Toast Crunch Breakfast Cereal Treat Bars, Snack Bars, 16 ct",65400,16
+687,69,"Great Value Fruit & Grain Cereal Bars, Strawberry, 1.3 oz, 16 Count",32800,1.3
+689,69,Great Value Crunchy Granola Bars Oats & Honey 1.4 oz 6 Count,17400,1.4
+690,69,"JUNKLESS Non-GMO Delicious Chewy Cinnamon Roll Granola Bars, 8 Ct, 1.1 oz",49800,1.1
+691,70,"Maruchan Ramen Noodle Chicken Flavor Soup, 3 Oz, 12 Count",28700,3
+692,70,"Progresso Rich & Hearty, Chicken & Homestyle Noodle Canned Soup, 19 oz.",21800,19
+693,70,"Campbell's Condensed Chicken Noodle Soup, 10.75 Ounce Can (Pack of 4)",47800,10.75
+694,70,"Great Value Cream Of Chicken Condensed Soup, 10.5 oz",6800,10.5
+695,70,"Rao's Made for Home Sausage & Potato Soup, 16oz, Real Vegetables, Traditional Italian Heat and Serve Soup",38800,16
+696,70,"Campbell's Condensed Cream of Chicken Soup, 10.5 Ounce Can",12600,10.5
+697,70,"Campbell's Condensed Cream of Mushroom Soup, 10.5 Ounce Can",12600,10.5
+698,70,"Campbell's Chunky Soup, Ready to Serve Chicken Broccoli Cheese Soup, 18.8 Oz Can",22599,18.8
+699,70,"Campbell's Chunky Soup, Ready to Serve New England Clam Chowder, 18.8 Oz Can",22599,18.8
+700,70,"Marketside Lentil Soup - Fresh Deli Soup 16oz, (Fresh Deli Soup)",28700,16
+701,71,"Marketside Brioche Slider Rolls, 16.9 oz, 12 Count",44800,16.9
+702,71,"Marketside Brioche Buns, 10.6 oz, 6 Count",44800,10.6
+703,71,"Sam's Choice Brioche Hamburger Buns, 7.05 oz, 4 Count",34200,7.05
+704,71,"Marketside Sesame Seed Brioche Buns, 10.58 oz, 6 Count",44800,10.58
+705,71,"Marketside Brioche Hot Dog Buns, 13.6 oz, 8 Count",44800,13.6
+707,71,"Marketside Brioche Rolls, 9.88 oz, 8 Count",44800,9.88
+708,71,"Marketside Whole Grain Brioche Buns, 10.6 oz, 6 Count",44800,10.6
+709,71,"Marketside Chocolate Chip Brioche Rolls, 9.88 oz, 8 Count",44800,9.88
+711,72,"YoCrunch Low Fat Vanilla with M&Ms Yogurt, 4 Oz. Cups, 4 Count",31200,4
+712,72,"Great Value Original Strawberry + Strawberry Banana Lowfat Yogurt, 6 oz, 12 count",53300,6
+713,72,"Great Value Original Strawberry Lowfat Yogurt, 32 oz",23600,32
+714,72,"Yoplait Original Strawberry Low Fat Yogurt, 6 OZ Yogurt Cup",6400,6
+715,72,"Chobani Flip Low-Fat Greek Yogurt, Strawberry Cheesecake 4.5 oz",13799,4.5
+716,72,"Yoplait Go-Gurt, Low Fat Yogurt, SpongeBob SquarePants Variety Pack, 32 oz",44700,32
+717,72,"Yoplait Original Low Fat Yogurt Pack, 8 CT, 6 OZ Fruit Yogurt Cups",43600,6
+718,72,"Yoplait Original Strawberry Cheesecake Low Fat Yogurt, 6 OZ Yogurt Cup",6400,6
+719,72,"Great Value Original Strawberry Banana Lowfat Yogurt, 6 oz Cups, 4 Count",19600,6
+720,72,"Yoplait Original Harvest Peach Low Fat Yogurt, 6 OZ Yogurt Cup",6400,6
+721,73,"Great Value Whole Kernel Corn, Canned Vegetables, 14.5-15 oz",5800,15
+722,73,"Great Value Sliced Peaches in 100% Juice, 15 oz",12800,15
+723,73,"Great Value Petite Diced Tomatoes in Tomato Juice, 14.5 Oz",8800,14.5
+724,73,"Great Value Canned French Style Green Beans, 14.5 oz Can",5800,14.5
+725,73,"Great Value Whole New Potatoes, Canned Potatoes, 15 oz Can",7800,15
+726,73,"Rotel Original Diced Tomatoes and Green Chilies, 10 oz.",12400,10
+727,73,"Great Value Pinto Beans, 15.5 oz Can",7800,15.5
+728,73,"Great Value Canned Sliced Carrots, 14.5 oz Can",6200,14.5
+729,73,"Great Value Mushrooms Pieces And Stems, 4 oz, Can",11200,4
+730,73,"Great Value Canned Pineapple Chunks packed in 100% Pineapple juice, 20 oz",12800,20
+731,74,"Great Value Fast Rising Instant Yeast, 0.25 oz, 3 Count",10000,0.25
+732,74,"Great Value Active Dry Yeast, 0.25 oz, 3 Count",10000,0.25
+733,74,"Fleischmann's Active Dry Yeast, 0.75 Oz, 3 Pack",20800,0.75
+734,74,"Fleischmann's Rapid Rise Yeast, 0.75 Oz, 3 Pack",20800,0.75
+735,74,"Fleischmann's Classic Bread Machine Yeast, 4 oz",62200,4
+736,74,"Fleischmann's Active Dry Yeast, 4 Oz",62200,4
+737,74,"Great Value Nutritional Yeast Flakes, 5 oz",59800,5
+738,74,"Great Value Organics Xanthan Gum, 5 oz",54200,5
+739,74,"McCormick Gourmet All Natural Cream Of Tartar, 2.62 oz",58400,2.62
+740,74,"Great Value Fast Rising Instant Yeast, 0.25 oz, 3 Count",8600,0.25
+741,75,"Great Value Spaghetti, 16 oz",9200,16
+742,75,"Great Value Elbows Pasta, 16 oz",9200,16
+743,75,"Prego Pasta Sauce, Traditional Italian Tomato Sauce, 24 Ounce Jar",22400,24
+744,75,Barilla Spaghetti Pasta 16 oz,18400,16
+745,75,"Rao's Homemade Tomato Sauce | Roasted Garlic | 32 oz | Versatile Pasta Sauce | Carb Conscious, Keto Friendly | All Natural,  Premium Quality | Made with Sweet Italian Tomatoes and Caramelized Garlic",85200,32
+746,75,"Great Value Rotini Pasta, 16 oz",9200,16
+747,75,"Great Value Thin Spaghetti, 1 lb",9200,1
+748,75,"Great Value Half-Length Spaghetti, 16 oz",9200,16
+749,75,"Great Value Fettuccine, 16 oz",9200,16
+750,75,"Great Value Wide Egg Noodles Enriched Product, 16 oz",14300,16
+751,76,"Hershey, All Time Greats Chocolate Assortment Snack Size Candy, 15.57 oz, Variety Bag (30 Pieces)",65400,15.57
+752,76,"Tootsie Child's Play Variety Candies Pack, 3.5 Lb.",94800,3.5
+753,76,"Tootsie Roll Pops Assorted Flavors, 10.12 Oz",25800,10.12
+754,76,"REESE'S, HERSHEY'S and KIT KAT, Miniatures Milk Chocolate and Peanut Butter Assortment Candy, Individually Wrapped, 33.38 oz, Bulk Party Pack",119800,33.38
+755,76,"Snickers, Twix, Milky Way & 3 Musketeers Halloween Milk Chocolate Candy Bars - 18 Ct",144800,18
+756,76,"HERSHEY'S, Miniatures Assorted Chocolate Candy Bars, Halloween, 35.9 oz, Bulk Party Pack",119800,35.9
+757,76,Dum Dums Original Lollipops Assorted Flavors 100 ct. Lay Down Bag,48800,.
+758,76,"Skittles, Starburst & Life Savers Gummy Candy Variety Pack - 80 Ct Bag",85800,80
+759,76,"Kiddie Mix Assorted Candy Lemonhead, Now and Later, Gobstopper, Chuckles, 23.7 oz (100 Count)",59800,23.7
+760,76,"Hershey, Milk and Dark Chocolate Assortment Snack Size Candy, Halloween, 33.43 oz, Bulk Party Pack",119800,33.43
+773,78,"Melitta #4 Natural Brown Cone Coffee Filters, 100 Ct",36200,100
+781,79,"Panera Bread Broccoli Cheddar Soup, 16oz (Fresh Deli Soup)",49200,16
+782,79,Taylor Farms BLT Salad with Chicken & Bacon Salad 6.5oz (Deli Salad Bowl),34700,6.5
+783,79,"Marketside Lobster Bisque, 16oz, (Fresh Deli Soup)",28700,16
+784,79,"Freshness Guaranteed Mustard Potato Salad, 16 oz",27400,16
+785,79,"Marketside Broccoli Cheddar Soup, 16 oz, (Fresh Deli Soup)",38700,16
+786,79,"Marketside Santa Fe Style Salad with Chicken, 6.35 oz",34700,6.35
+787,79,"Marketside Sunflower Bacon Crunch Chopped Salad Kit, 10.6 oz",39800,10.6
+788,79,"Marketside Creamy Cauliflower Parmesan Soup, 16 oz, (Fresh Deli Soup)",38700,16
+789,79,"Marketside Creamy Tomato Bisque, 16 oz, (Fresh Deli Soup)",28700,16
+790,79,"Marketside Classic Iceberg Salad, 12 oz",17800,12
+791,80,"Gushers Fruit Flavored Snacks, Variety Pack, Strawberry and Tropical, 20 ct",89800,20
+792,80,"Mott's Fruit Flavored Snacks, Assorted Fruit, Pouches, 0.8 oz, 40 ct",91800,0.8
+793,80,"Great Value Original Fruit Smiles, 0.9 oz, 50 Count",91300,0.9
+794,80,Happy Valley Farms Dried Mandarin 4oz,49300,4
+795,80,"Fruit by the Foot, Fruit Snacks, Berry and Strawberry, 13.5 oz",89800,13.5
+796,80,"Welch's Mixed Fruit Fruit Snacks Value Pack, 0.9 oz, 22 count",66400,0.9
+797,80,"Fruit by the Foot Fruit Flavored Snacks, Berry Tie-Dye, 4.5 oz, 6 ct",32200,4.5
+798,80,"Gushers Fruit Flavored Snacks, Strawberry Splash and Tropical, 6 ct",32200,6
+800,80,"Welch's Mixed Fruit Snacks Family Size, 0.9 oz, 40 count",107700,0.9
+801,81,"Great Value Whole Vitamin D Milk, Gallon, 128 fl oz",30600,128
+802,81,"Great Value 2% Reduced Fat Milk, 128 Fl Oz",30600,128
+803,81,"Great Value 2% Reduced Fat Milk, Half Gallon, 64 fl oz",18300,64
+804,81,"Great Value Whole Vitamin D Milk, Half Gallon, 64 fl oz",18300,64
+805,81,"Great Value 1% Low Fat Chocolate Milk, Gallon, 128 fl oz",30600,128
+806,81,"Great Value 1% Low Fat Chocolate Milk, Half Gallon, 64 fl oz",18300,64
+807,81,"Great Value 1% Low Fat Milk, Gallon, 128 fl oz",30600,128
+808,81,"Great Value Original Unsweetened Almond Milk, Half Gallon, 64 fl oz",23600,64
+809,81,"Great Value Lactose Free 2% Reduced Fat Milk, Half Gallon, 64 fl oz",32400,64
+810,81,"Lactaid 100% Lactose Free 2% Reduced Fat Milk, 96 fl oz",62400,96
+811,82,"Great Value Vegetable Oil, 48 fl oz",34700,48
+812,82,"Great Value Canola Oil, 48 fl oz",36700,48
+814,82,"Great Value Distilled White Vinegar, 128 fl oz",30000,128
+815,82,"Great Value Extra Virgin Olive Oil Non-Stick Cooking Spray, 7 oz",30000,7
+816,82,"Great Value Canola Oil Non-Stick Cooking Spray, 8 oz",22799,8
+817,82,"Great Value Classic Olive Oil, 17 fl oz",28800,17
+818,82,"Great Value Original Cooking Spray, 8 oz",22799,8
+819,82,"Great Value Distilled White Vinegar, 64 fl oz",20800,64
+820,82,"Great Value Butter Cooking Spray, 8 oz",22799,8
+821,83,"Arm & Hammer Baking Soda, 1 lb.",9800,1
+822,83,"Great Value Baking Soda, 16 oz",7200,16
+823,83,"Great Value Double Acting Baking Powder, 8.1 oz",14800,8.1
+824,83,"Argo Gluten Free Pure Corn Starch, 16 Oz Jar",18700,16
+825,83,"Arm & Hammer Baking Soda Fridge-n-Freezer Odor Absorber, 14 oz.",10600,14
+826,83,"Great Value Corn Starch, 16 oz",15400,16
+827,83,"Clabber Girl Double Acting Baking Powder - Spanish, 8.1 oz.",24200,8.1
+828,83,"Arm & Hammer Pure Baking Soda, 4 lb",27300,4
+829,83,"Arm & Hammer Pure Baking Soda, 8 oz.",7200,8
+830,83,"Arm & Hammer Pure Baking Soda, 3.5 lbs",28800,3.5
+831,84,"Great Value Pretzel, Mini Twists, 16 oz",19800,16
+832,84,"Great Value Pretzel Sticks, Fat Free, 16 oz",19800,16
+833,84,"Great Value Peanut Butter Filled Pretzel, 24 oz",54600,24
+834,84,"Dot's Homestyle Pretzels, Original Seasoned Pretzel Twists, 16 oz Family Size Bag",69400,16
+835,84,"Rold Gold Tiny Twists Cheddar Flavored Pretzels, 10 Oz.",36800,10
+836,84,"Snack Factory Pretzel Crisps, Original, Party Size, 14 Oz",49800,14
+837,84,"ROLD GOLD Tiny Pretzel Twists, 16 Oz",36800,16
+838,84,"SuperPretzel Original Fully Baked Soft Pretzels, 6 count, 13 oz",27799,13
+839,84,"Snack Factory Pretzel Crisps, Original, 7.2 Oz",32400,7.2
+840,84,"Flipz White Fudge Dipped Pretzels, 5 oz",21800,5
+841,85,"Freshness Guaranteed Fully Cooked Traditional Pulled Rotisserie Chicken, 16 oz",123699,16
+842,85,"Freshness Guaranteed Traditional Shredded Rotisserie Seasoned Fully Cooked Pork, 16 oz",75400,16
+843,85,"Freshness Guaranteed Fajita Seasoned Grilled White Meat Chicken, 16 oz",123699,16
+844,85,"Freshness Guaranteed Fully Cooked Barbecue Pulled Rotisserie Chicken, 16 oz",123699,16
+845,85,"John Soules Foods Rotisserie Seasoned Chicken Strips, 8oz (Refrigerated)",39800,8
+846,85,"Freshness Guaranteed Fully Cooked Traditional Pulled Rotisserie Chicken, 16 oz",123699,16
+848,85,"Freshness Guaranteed Traditional Shredded Rotisserie Seasoned Fully Cooked Pork, 16 oz",75400,16
+849,85,"Freshness Guaranteed Fajita Seasoned Grilled White Meat Chicken, 16 oz",123699,16
+850,85,"Freshness Guaranteed Fully Cooked Barbecue Pulled Rotisserie Chicken, 16 oz",123699,16
+851,86,"Caf Bustelo, Espresso Style Dark Roast Ground Coffee, Vacuum-Packed 10 oz. Brick",37600,10
+852,86,"Caf Bustelo, Espresso Style Dark Roast Ground Coffee, 10 oz. Can",49200,10
+853,86,"Nescaf Clasico, Dark Roast Instant Coffee 10.5 oz.",94800,10.5
+854,86,"Great Value 100% Arabica Colombian Medium Dark Ground Coffee, 11.3 oz",39800,11.3
+855,86,"McCafe Colombian Ground Coffee, Medium Roast, 30 oz. Canister",129800,30
+856,86,"Starbucks Sumatra, Ground Coffee, Dark Roast, 18 oz",124800,18
+857,86,"Great Value 100% Arabica French Roast Dark Ground Coffee, 24.2 oz",109200,24.2
+858,86,"Starbucks Caff Verona, Ground Coffee, Dark Roast, 18 oz",124800,18
+859,86,"Great Value French Roast, 100% Arabica, Dark Roast, Ground Coffee, 12 oz",49800,12
+860,86,"Starbucks Espresso Roast, Whole Bean Coffee, Dark Roast, 18 oz",124800,18
+861,87,"Dallies Gold Glitter Birthday Candles,14cm, 12ct",29800,12
+862,87,"Dallies Gold Glitter Birthday Candles,14cm, 12ct",29800,12
+863,87,"Dallies Gold Glitter Birthday Candles,14cm, 12ct",29800,12
+864,87,"Dallies Gold Glitter Birthday Candles,14cm, 12ct",29800,12
+865,87,"Dallies Gold Glitter Birthday Candles,14cm, 12ct",29800,12
+866,87,"Dallies Gold Glitter Birthday Candles,14cm, 12ct",29800,12
+867,87,"Freshness Guaranteed Variety Cheesecake, 16 oz, 6 inch, 8 Slices",79800,16
+868,87,"Freshness Guaranteed Variety Cheesecake, 40 oz, 9 inch, 12 Slices",149800,40
+869,87,"Freshness Guaranteed Strawberry Swirl Cheesecake, 16 oz, 8 Count",69800,16
+870,87,"Freshness Guaranteed 6"" New York Style Cheesecake, 16 oz, Cakes",69800,16
+871,88,"Idahoan Buttery Homestyle Mashed Potatoes, 4 oz Pouch",11200,4
+872,88,"Idahoan Roasted Garlic Mashed Potatoes, 4 oz Pouch",11200,4
+873,88,"Pasta Roni Butter & Garlic Angel Hair Pasta, 4.7 oz Box",12200,4.7
+874,88,"Knorr Rice Sides Cheddar Broccoli Rice, Cooks in 7 Minutes, No Artificial Flavors, No Preservatives, No Added MSG 5.7 oz",12600,5.7
+875,88,"Hamburger Helper Double Cheeseburger Macaroni, 13.6 oz., Twin Pack",24800,13.6
+876,88,"Idahoan Sour Cream & Chives Mashed Potatoes, 4 oz Pouch",11200,4
+877,88,Rice A Roni Rice & Vermicelli Chicken Broth And Herbs Flavor 6.9 Oz,13300,6.9
+878,88,"Kraft Original Macaroni and Cheese Dinner, 5 ct Pack, 7.25 oz Boxes",48800,7.25
+879,88,"Idahoan Four Cheese Mashed Potatoes, 4 oz Pouch",11200,4
+880,88,"Great Value Au Gratin Potatoes, 4.7 oz",9800,4.7
+881,89,"Folgers Classic Roast Ground Coffee, 40.3-Ounce",139200,40.3
+882,89,"Maxwell House Original Roast Ground Coffee, 30.6 oz. Canister",78600,30.6
+883,89,Nestle Coffee mate French Vanilla Liquid Coffee Creamer 64 fl oz,64800,64
+885,89,"Maxwell House Original Roast Ground Coffee, 42.5 oz. Canister",99200,42.5
+886,89,"Folgers Classic Roast Ground Coffee, Medium Roast, 9.6-Ounce",49200,9.6
+887,89,"International Delight Caramel Macchiato Iced Coffee, 64 Oz.",42800,64
+888,89,"Cafe La Llave Espresso Dark Roast Ground Coffee, 10 Oz",29700,10
+889,89,"SToK Cold Brew Coffee, Black Unsweetened, 48 Oz.",52800,48
+890,89,"Great Value Cinnamon French Toast Non-Dairy Coffee Creamer, 15 oz",29800,15
+891,90,"Great Value Gluten Free Finely Shredded Colby Monterey Jack Cheese, 8 Oz",22200,8
+892,90,"Kraft Singles American Slices, 24 ct Pack",49800,24
+893,90,"Great Value Finely Shredded Sharp Cheddar Cheese, 16 oz",39800,16
+894,90,"Great Value Finely Shredded Fiesta Blend Cheese, 32 oz",74800,32
+895,90,"Kerrygold Grass-Fed Dubliner Irish Cheese, 7oz.",52800,7
+896,90,"Great Value Cream Cheese, 8 oz, 2 count",31800,8
+897,90,"Great Value Colby Cheese, 8 oz",20000,8
+898,90,"Great Value Finely Shredded Mild Cheddar Cheese, 8 oz",22200,8
+899,90,"Great Value Singles American Pasteurized Prepared Cheese Product, 16 oz, 24 Count",24800,16
+901,91,"Giovanni Rana Homestyle Ravioli Spinach Ricotta Premium Filled Italian Pasta Bag (Family Size, 18oz)",72400,18
+902,91,"Giovanni Rana Homestyle Fettuccine Chcken Alfredo Sauce Premium Meal Kit Tray (Family Size, 39oz)",139700,39
+903,91,"Giovanni Rana Homestyle Ravioli Mozzarella Cheese Premium Filled Italian Pasta Bag (Family Size, 18oz)",72400,18
+904,91,"Giovanni Rana Homestyle Tortelloni Chicken Mozzarella Cheese Premium Filled Italian Pasta Bag (Family Size, 19oz)",75800,19
+905,91,"Rana Tri Color Tortelloni, 18oz",72400,18
+906,91,"Giovanni Rana Homestyle Ravioli Italian Sausage Premium Filled Italian Pasta Bag (Family Size, 18oz)",75800,18
+907,91,"Giovanni Rana Homestyle Sauce Alfredo Premium Pasta Topping Jar (Family Size, 15oz)",65000,15
+908,91,"Rana Marinara Sauce Family Size, 15oz",31200,15
+909,91,Rana Family Size Spinach & Cheese Tortelloni 18 oz,72400,18
+910,91,"Giovanni Rana Homestyle Ravioli Maine Lobster Premium Filled Italian Pasta Bag (Share Size, 12oz)",72400,12
+911,92,"Pringles Potato Crisps Chips, Variety Pack, 27 Ct, 19.5 Oz, Box",172399,19.5
+912,92,"Pringles Potato Crisps Chips, Variety Pack, 27 Ct, 19.3 Oz, Box",172399,19.3
+913,92,"SkinnyPop Gluten-Free Original and White Cheddar Popcorn Variety Pack, 0.5 oz, 14 Count",113600,0.5
+918,92,"Pringles Potato Crisps Chips, Variety Pack, 27 Ct, 19.5 Oz, Box",128699,19.5
+920,92,"Smartfood Popcorn, White Cheddar, 0.625 oz,10 Count",64800,0.625
+921,93,"Great Value Long Grain Enriched Rice, 80 oz",27799,80
+922,93,"Great Value Long Grain Enriched Rice, 32 oz",15400,32
+923,93,"Great Value Pinto Beans, 32 oz",18400,32
+924,93,"Minute Instant White Rice, Light and Fluffy, 28 oz",41200,28
+925,93,"Great Value Great Northern Dried Beans, 16 oz",17800,16
+926,93,"Great Value Great Northern Beans, 32 oz",22400,32
+927,93,"Success Rice Boil-in-Bag White Rice, 32 Oz",49200,32
+928,93,"Great Value Black Eyed Peas, 16 oz",15800,16
+929,93,"Great Value Natural Brown Long Grain Rice, 32 oz",14800,32
+930,93,"Mahatma Jasmine Long Grain Rice, 32oz",35200,32
+931,94,Extra Polar Ice Sugar Free Chewing Gum - 35 ct Pack,29800,35
+932,94,Extra Spearmint Sugar Free Chewing Gum Pack - 35 ct,29800,35
+933,94,Hubba Bubba Original Bubble Gum Tape - 2 oz,12800,2
+934,94,"Wrigley's Doublemint Bulk Chewing Gum, Value Pack - 15 ct (3 Pack)",34800,15
+935,94,"ICE BREAKERS ICE CUBES, Peppermint Flavored Sugar Free Chewing Gum, Made with Xylitol, 3.24 oz, Bottle, 40 Pieces",31200,3.24
+937,94,"BUBBLE YUM Original Flavor Bubble Gum, Individually Wrapped, 2.82 oz, Pack (10 Pieces)",10800,2.82
+942,95,"Hillshire Farm Sliced Oven Roasted Turkey Breast Deli Lunch Meat Family Size, 1 lb",75000,1
+943,95,"Hillshire Farm Sliced Honey Ham Deli Lunch Meat Family Size, 1 lb",75000,1
+944,95,"Hillshire Farm Sliced Oven Roasted Turkey Breast Deli Lunch Meat, 9 oz",45000,9
+945,95,Smithfield Legendary Off The Bone Ham Lunch Meat 16 oz,69800,16
+946,95,"Oscar Mayer Bologna Deli Lunch Meat, 16 oz Package",22799,16
+948,95,"Land O'Frost Premium Old World Style Black Forest Ham, 16 Oz.",49800,16
+949,95,"Land O'Frost Premium Honey Smoked Turkey Breast, 16 Oz.",49800,16
+951,96,"Great Value Low Sodium Club Soda Sparkling Water, 33.8 Fl Oz, 1 single Bottle",8700,33.8
+952,96,"Great Value Diet Tonic Water, 33.8 Fl Oz Bottle",8700,33.8
+953,96,"Mr & Mrs T Strawberry Daiquiri Margarita Mix, 1 L bottle",38800,1
+954,96,"Great Value Tonic Water, 33.8 fl oz",8700,33.8
+955,96,"Canada Dry Ginger Ale Soda, 12 fl oz cans, 12 pack",44800,12
+956,96,"Great Value Calorie Free Club Soda Cocktail Mixer, 7.5 Oz, 6 Count",29800,7.5
+957,96,Great Value Gvm 7.5oz-4/6 Tonic,29800,7.5
+958,96,"Canada Dry Ginger Ale Soda Pop, 7.5 fl oz cans, 10 pack",48800,7.5
+959,96,"Great Value Ginger Ale, 7.5 fl oz, 6 Pack Cans",22799,7.5
+960,96,"Gosling Stormy Ginger Beer Cocktail Mixer, 12 Fl Oz",59800,12
+966,97,"Freshness Guaranteed Coconut Crunch Mini Donuts, 14 oz",32400,14
+967,97,"Freshness Guaranteed Glazed Sour Cream Donuts, 20 oz, 8 Count",29700,20
+968,97,"HOSTESS Powdered DONETTES Bag, Sugar Mini Donuts - 10 oz",24800,10
+969,97,"Great Value Donut Variety, Frosted Chocolate & Powdered Sugar, 18.75 oz, 10 Count",35000,18.75
+971,98,"Great Value Sugar-Free Drink Mix, Strawberry Watermelon, 0.42 Oz, 6 Ct",21600,0.42
+972,98,"Great Value Sugar-Free Cherry Drink Mix, 1.9 Oz., 6 Count",21600,1.9
+973,98,"Hawaiian Punch Sugar Free On The Go Drink Mix Sticks Variety Pack, 30 count, 3.0 oz",37800,3.0
+974,98,"Great Value Sugar-Free Lemonade Drink Mix, 0.53 Oz., 6 Count",21600,0.53
+975,98,"Great Value Sugar-Free Drink Mix, Grape, 0.32 oz, 6 Count",21600,0.32
+976,98,"Crush Sugar Free Grape Orange Strawberry On the Go Drink Mix Variety Pack, 30 count, 2.75 oz",37800,2.75
+977,98,"Great Value Strawberry Orange Banana Drink Mix, 0.4 oz, 6 count",21600,0.4
+978,98,"Great Value Sugar-Free Pink Lemonade Drink Mix, 0.14 oz, 10 Count",19400,0.14
+979,98,Propel Zero Sugar Electrolyte Water Beverage Mix Kiwi Strawberry Naturally Flavored 0.08 Oz 10 Ct,24800,0.08
+980,98,"Great Value Sugar-Free Energy Electrolyte Watermelon Limeade Drink Mix, 1.1 oz, 10 Packet",19400,1.1
+981,99,"Minute Maid Fruit Punch, Made w/ Real Fruit Juice, 59 fl oz",16800,59
+982,99,"Capri Sun Fruit Punch Flavored Juice Drink Blend, 10 ct Box, 6 fl oz Pouches",29800,6
+984,99,"Great Value No Added Sweeteners 100% Apple Juice, 64 Fl. Oz.",16200,64
+985,99,"Simply Orange Pulp Free Orange Juice, 89 fl oz",64800,89
+986,99,"Minute Maid Fruit Punch Jug, 128 fl oz",35200,128
+987,99,"Simply Lemonade, All Natural Non-GMO, 52 fl oz",25800,52
+988,99,"Minute Maid Premium Peach, Fruit Juice Drink, 59 fl oz",16800,59
+989,99,"Great Value Berry Punch, 59 oz",12900,59
+990,99,"Ocean Spray Cranberry Grape Juice Drink, 101.4 fl oz",46600,101.4
+991,100,"Cracker Barrel Cracker Cuts Pepper Jack, Cheddar Jack, Asiago & Extra Sharp Cheddar Cheese Slice Variety Pack, 48 ct Tray",84800,48
+992,100,"COLUMBUS Charcuterie Tasting Board, 12.5 oz",129700,12.5
+993,100,"Del Duca Variety Pack 6 oz. Sliced Deli Meat, Italian Style Cured Pork",74800,6
+994,100,"President Cheese Wee Brie Spreadable Cheese Wedges, 4.9 oz, 8 Ct",32700,4.9
+995,100,Del Duca Prosciutto 6 oz.  Dry Cured Sliced Italian Style Ham,77800,6
+996,100,"Dutchmark Smoked Gouda Cheese, 7 Oz",36400,7
+998,100,"BelGioioso Fresh Mozzarella Cheese Pearls, Mini Snacking Cheese, 8 oz",41400,8
+999,100,"HORMEL GATHERINGS, Hard Salami and Pepperoni withCheese and Crackers, Deli Party Tray, 28oz",139800,28
+1000,100,"BelGioioso Parmesan Cheese Wedge, Specialty Hard Cheese, 8 oz",51400,8
+1001,101,"Lunchables Turkey & American Cheese Cracker Stackers Snack Kit with Chocolate Sandwich Cookies, 3.4 oz Tray",18200,3.4
+1002,101,"Lunchables Ham & American Cheese Cracker Stackers Snack Kit with Chocolate Sandwich Cookies, 3.4 oz Tray",18200,3.4
+1004,101,"Lunchables Pizza with Pepperoni Snack Kit, 4.3 oz Tray",18200,4.3
+1009,101,"Lunchables Nachos Cheese Dip & Salsa Snack Kit, 4.4 oz Tray",18200,4.4
+1010,101,"Lunchables Turkey & Cheddar Cheese Snack Kit with Crackers, 3.2 oz Tray",18200,3.2
+1011,102,"Red Bull Energy Drink, 8.4 Fl Oz (12 pack)",205799,8.4
+1012,102,"Red Bull Energy Drink, 8.4 Fl Oz (4 pack)",72400,8.4
+1013,102,"Monster Energy Green, Original, 16 fl oz, 12 Pack",199800,16
+1014,102,"V8 +ENERGY Orange Pineapple Energy Drink, 8 FL OZ Can (Pack of 6)",51400,8
+1015,102,"V8 +ENERGY Pomegranate Blueberry Energy Drink, 8 FL OZ Can (Pack of 12)",93800,8
+1016,102,"NOS High Performance Energy Drink, Original, 16 fl oz, 8 Pack",119800,16
+1017,102,"Red Bull Energy Drink, 12 Fl Oz (4 pack)",104800,12
+1018,102,"Monster Energy Zero Ultra, Sugar Free Energy Drink, 16 fl oz, 12 Pack",199800,16
+1019,102,"Red Bull Energy Drink, Watermelon, 12 Fl Oz (4 pack)",104800,12
+1020,102,"Monster Energy Green, Original, Energy Drink, 16 fl oz, 4 Pack",71800,16
+1021,103,"Hidden Valley Golden Sweet and Tangy Original Ranch Secret Sauce, 12 oz Squeezable Bottle",42400,12
+1022,103,"Marketside Classic Iceberg Salad, 12 oz",17800,12
+1023,103,"Marketside Caesar Salad Kit, 11.55 oz",39800,11.55
+1024,103,Taylor Farms BLT Salad with Chicken & Bacon Salad 6.5oz (Deli Salad Bowl),34700,6.5
+1025,103,"Marketside Caesar Salad with Chicken, 6.25 oz",34700,6.25
+1026,103,"Marketside Chopped Romaine Mix, 9oz",29800,9
+1027,103,"Taylor Farms Caesar Salad with Chicken & Bacon, 5.75 oz (Deli Salad Bowl)",34700,5.75
+1028,103,"Marketside Santa Fe Style Salad with Chicken, 6.35 oz",34700,6.35
+1029,103,"Marketside Spring Mix, 11 oz",39800,11
+1031,104,"Planters Honey Roasted Mixed Nuts with Peanuts, Cashews, Almonds, Hazelnuts & Pecans, 10 oz Canister",68000,10
+1032,104,"NUT-rition Heart Healthy Mix with Peanuts, Almonds, Pistachios, Pecans, Walnuts & Sea Salt, 7 ct Packs",83400,7
+1033,104,"Great Value Mixed Nuts with Peanuts, 27 Oz",116199,27
+1034,104,"Southern Style Nuts, Hunter Mix, Gourmet, 30 Oz",129800,30
+1035,104,"Planters Deluxe Pistachio Nut Mix with Pistachios, Almonds & Cashews, 14.5 oz Canister",149400,14.5
+1036,104,"Planters Mixed Nuts Less Than 50% Peanuts with Peanuts, Almonds, Cashews, Hazelnuts & Pecans, 10.3 oz Canister",68000,10.3
+1037,104,"Great Value Lightly Salted, Deluxe Mixed Nuts, 15.25 oz",116700,15.25
+1038,104,"NUT-rition Wholesome Nut Mix with Cashews, Almonds, Macadamias, & Sea Salt, 7 ct Packs",83400,7
+1039,104,"Great Value Deluxe Mixed Nuts, 30 oz",194700,30
+1040,104,"Emerald Nuts, Natural Walnuts & Almonds, 100 Calorie Packs, 10 Ct, 5.6 Oz",68200,5.6
+1041,105,"Jimmy Dean Meat Lovers Breakfast Bowl, 7 oz (Frozen)",28200,7
+1042,105,"Great Value Cinnamon French Toast Sticks, 16 oz (Frozen)",31600,16
+1043,105,"Jimmy Dean Sausage Egg & Cheese Croissant Sandwich, 36 oz, 8 Ct (Frozen)",98800,36
+1044,105,"Jimmy Dean Original Pancakes & Sausage on a Stick, 30 oz, 12 Ct (Frozen)",96400,30
+1045,105,"Pillsbury Toaster Strudel, Strawberry Toaster Pastries, Value Size, 12 ct., 23.4 oz",46800,23.4
+1048,105,"Jimmy Dean Biscuit & Sausage Gravy Breakfast Bowl, 9 oz (Frozen)",28200,9
+1049,105,"Great Value Buttermilk Pancakes, 33 oz, 24 Count (Frozen)",32400,33
+1050,105,"Jimmy Dean Sausage Cheese Loaded Potato Breakfast Bowl, 7 oz (Frozen)",28200,7
+1051,106,"Marketside Detroit Style Pepperoni Pizza, Medium, 26.17 oz (Fresh)",85000,26.17
+1052,106,"Marketside Chicken Bacon Ranch Flatbread Pizza, 12.4 oz (Fresh)",55000,12.4
+1053,106,"Marketside Five Cheese Breadsticks, 19.67 oz, 18 Count (Fresh)",50000,19.67
+1054,106,"Marketside BBQ Recipe Chicken Flatbread Pizza, 11.5 oz (Fresh)",55000,11.5
+1055,106,"Marketside Meat Trio Pizza, Thin Crust, Medium, 16 oz (Fresh)",55000,16
+1056,106,"Marketside Pepperoni Pizza, Traditional Crust, Medium, 25 oz (Fresh)",65000,25
+1057,106,"Marketside Pepperoni Pizza, Traditional Crust, Extra Large, 44.6 oz (Fresh)",75000,44.6
+1058,106,"Marketside Supreme Pizza, Traditional Crust, Extra Large, 48.6 oz (Fresh)",85000,48.6
+1059,106,"Marketside Supreme Pizza, Traditional Crust, Medium, 27.1 oz (Fresh)",70000,27.1
+1060,106,"Marketside Chicken Nacho Recipe Flatbread Pizza, 12.5 oz (Fresh)",55000,12.5
+1061,107,"Great Value Gluten Free Finely Shredded Colby Monterey Jack Cheese, 8 Oz",22200,8
+1062,107,"Kraft Singles American Slices, 24 ct Pack",49800,24
+1063,107,"Great Value Finely Shredded Sharp Cheddar Cheese, 16 oz",39800,16
+1064,107,"Great Value Finely Shredded Fiesta Blend Cheese, 32 oz",74800,32
+1065,107,"Kerrygold Grass-Fed Dubliner Irish Cheese, 7oz.",52800,7
+1066,107,"Great Value Cream Cheese, 8 oz, 2 count",31800,8
+1067,107,"Great Value Colby Cheese, 8 oz",20000,8
+1068,107,"Great Value Finely Shredded Mild Cheddar Cheese, 8 oz",22200,8
+1069,107,"Great Value Singles American Pasteurized Prepared Cheese Product, 16 oz, 24 Count",24800,16
+1070,107,"Old Croc Australian Cheese Extra Sharp Cheddar, 7 oz.",37400,7
+1071,108,Pearl Milling Company Complete Pancake Mix Buttermilk 32 oz,30400,32
+1072,108,"Great Value Complete Pancake & Waffle Mix, Buttermilk, 32 oz",19800,32
+1073,108,"Great Value Complete Pancake & Waffle Mix, Extra Fluffy, Original, 32 oz",19800,32
+1074,108,"Krusteaz Light & Fluffy Buttermilk Complete Pancake Mix, 32 oz Box",25600,32
+1075,108,"Krusteaz Light & Fluffy Buttermilk Complete Pancake Mix, 5 lb Bag",71200,5
+1076,108,"Krusteaz Light & Crispy Belgian Waffle Mix, 28 oz Box",25600,28
+1077,108,"Hungry Jack Complete Buttermilk Pancake Mix and Waffle Mix, 32 Oz Box",32200,32
+1078,108,"Hungry Jack Complete Extra Light and Fluffy Pancake Mix and Waffle Mix, 32 Oz Box",32200,32
+1079,108,Pearl Milling Company Pancake On The Go Pancake Mix Chocolate Chip Flavor 2.11 Oz,13200,2.11
+1080,108,"Great Value Complete Pancake & Waffle Mix, Extra Fluffy, Original, 5 lbs",55400,5
+1081,109,"Great Value Original Saltine Crackers, 16 oz, 4 Count",11200,16
+1082,109,"Cheez-It Cheese Crackers, Original, 21 Oz, Box",52800,21
+1083,109,"Premium Original Saltine Crackers, 16 oz",32800,16
+1084,109,"RITZ Fresh Stacks Original Crackers, 8 Count, 11.8 oz",35800,11.8
+1085,109,"Goldfish Cheddar Crackers, Snack Crackers, 6.6 oz bag",24000,6.6
+1086,109,"Kellogg's Club Crackers, Original, 13.7 Oz, Box",45000,13.7
+1087,109,"Great Value White Cheddar Cheese Crackers, 12.4 oz",22000,12.4
+1088,109,"Great Value Baked Buttery Round Crackers, 13.7 oz",29800,13.7
+1089,109,"RITZ Peanut Butter Sandwich Crackers, 8 - 1.38 oz Packs",36000,1.38
+1090,109,"Cheez-It Cheese Crackers, Original, 12.4 Oz, Box",34800,12.4
+1092,110,"Fresh USDA Organic Strawberries, 1 lb.",43400,1
+1093,110,"Organic Baby Peeled Carrots, 1 Lb Bag",15600,1
+1094,110,"Organic Cherry Tomato, 10 oz Clam Shell",29600,10
+1096,110,"Fresh Organic Mini Cucumbers, 1lb bag",34600,1
+1097,110,"Marketside Organic Baby Spinach, 5 oz",29800,5
+1100,110,"Organic Green Seedless Grapes, 2 lb",59800,2
+1106,111,"Baby Carrots, 1lb Bag",9800,1
+1108,111,"Russet Potatoes, 5 lb Bag",39700,5
+1111,112,"Maruchan Ramen Noodle Chicken Flavor Soup, 3 Oz, 12 Count",28700,3
+1112,112,"Maruchan Ramen Noodle Beef Flavor Soup, 3 Oz, 12 Count",28700,3
+1113,112,Patak's Butter Chicken Simmer Sauce - 15 oz,39800,15
+1114,112,"Great Value Thai Style Sweet Chili Sauce, 13.25 oz",19700,13.25
+1115,112,"Haig's Tzatziki - Greek Yogurt, Cucumber Dip 8oz",39800,8
+1116,112,"Simply Asia Chinese Style Lo Mein Noodles, 14 oz",35800,14
+1117,112,"Pocky Chocolate Cream Covered Biscuit Sticks, 1.41 oz",12300,1.41
+1118,112,"Nongshim Shin Ramyun Spicy Beef Ramen Noodle Soup Pack, 4.02oz X 4 Count",42300,4.02
+1119,112,"Great Value Garbanzos Chick Peas, 15.5 oz",7800,15.5
+1120,112,"Dynasty Baby Corn Cut, 15 Oz",17200,15
+1121,113,"Quaker, Original Quick 5-Minute Grits, 24 oz",25800,24
+1122,113,"Great Value Maple & Brown Sugar Instant Oatmeal, 1.51 oz, 20 Packets",32800,1.51
+1123,113,"Great Value 100% Whole Grain Old Fashioned Oats, 42 oz",39800,42
+1124,113,"Great Value Fruit & Cream Variety Instant Oatmeal Value Pack, 1.05 oz, 20 Packets",32800,1.05
+1125,113,"Cream of Wheat Original Hot Cereal, Kosher, 28 OZ Box, 2.5 Min",43800,28
+1126,113,"Quaker, Instant Grits Value Pack, Butter, 0.99 oz, 22 Packets",56800,0.99
+1127,113,"Quaker, Old Fashioned Oatmeal, Whole Grain, 42 oz",56800,42
+1128,113,"Quaker, Quick 1 Minute Oats, Oatmeal, 42 oz",56800,42
+1129,113,"Quaker, Instant Oatmeal, Strawberry, Blueberry, Peach & Banana, 1.1 oz, 20 Packets",78600,1.1
+1130,113,"Quaker Instant Oatmeal, Maple Brown Sugar, 12.1 Oz",32300,12.1
+1131,114,"Freshness Guaranteed Strawberry Cheese Danish, 14 oz, 8 servings",39800,14
+1132,114,"Marketside Strawberry Cheese Bowtie Danish, 12 oz, 4 Pastries",49800,12
+1133,114,"Freshness Guarantee Walmart Creme Horns, 7.5 oz, 5 Count",41200,7.5
+1135,114,"Freshness Guaranteed Mini Eclairs, 9.75 oz, 5 Count",34700,9.75
+1136,114,"Freshness Guaranteed Cheese Danish, 14 oz, 8 servings",39800,14
+1137,114,"Freshness Guaranteed Apple Turnovers, 4 count, 10oz.",39800,10
+1138,114,"Freshness Guaranteed Mini Iced Cinnamon Rolls, Kosher, 13oz, 16 Count",39800,13
+1139,114,"Assorted Sweet Rolls, 24 oz, 6 Rolls",39800,24
+1140,114,"Freshness Guaranteed Apple Danish, 14 oz",39800,14
