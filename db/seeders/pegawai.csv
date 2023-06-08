@@ -14,3 +14,5 @@ id,nama,bidang_kerja_id,email,password
 13,September Larsen,1,septemberlarsen8514@gmail.com,januari
 14,Branden Graves,1,brandengraves@gmail.com,inipassword
 15,Mara Horn,1,marahorn1322@gmail.com,Password123
+17,Manager,1,manager@gmail.com,manager
+18,Staff,2,staff@gmail.com,staff 
