@@ -17,19 +17,19 @@ module.exports = {
     "port": db_port
   },
   "test": {
-    "username": "postgres",
-    "password": "sakinahjaya",
-    "database": "minimarket_db_test",
-    "host": "localhost",
-    "dialect": "postgres",
+    "username": db_user,
+    "password": db_password,
+    "database": db_name,
+    "host": db_host,
+    "dialect": db_dialect,
     "port": db_port
   },
   "production": {
-    "username": "postgres",
-    "password": "sakinahjaya",
-    "database": "minimarket_db_production",
-    "host": "localhost",
-    "dialect": "postgres",
+    "username": db_user,
+    "password": db_password,
+    "database": db_name,
+    "host": db_host,
+    "dialect": db_dialect,
     "port": db_port
   }
 }
