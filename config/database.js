@@ -4,6 +4,8 @@ const db_name = process.env.DB_NAME;
 const db_user = process.env.DB_USER;
 const db_password = process.env.DB_PASSWORD;
 const db_host = process.env.DB_HOST;
+const db_dialect = process.env.DB_DIALECT;
+const db_port = process.env.DB_PORT;
 
 module.exports = {
   "development": {
@@ -11,19 +13,23 @@ module.exports = {
     "password": db_password,
     "database": db_name,
     "host": db_host,
-    "dialect": "postgres"
+    "dialect": db_dialect,
+    "port": db_port
   },
   "test": {
     "username": "postgres",
     "password": "sakinahjaya",
     "database": "minimarket_db_test",
     "host": "localhost",
-    "dialect": "postgres"
+    "dialect": "postgres",
+    "port": db_port
   },
   "production": {
     "username": "postgres",
     "password": "sakinahjaya",
     "database": "minimarket_db_production",
-    "host": "localhost"
+    "host": "localhost",
+    "dialect": "postgres",
+    "port": db_port
   }
 }
