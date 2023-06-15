@@ -93,7 +93,7 @@ BEGIN
   IF NEW.barang_id IS NOT NULL THEN
 	  IF TG_OP = 'INSERT' THEN
 	  	IF NEW.jumlah_barang > (SELECT jumlah_stok FROM "Barangs" WHERE id = NEW.barang_id) THEN
-      		RAISE EXCEPTION 'Stok tidak mencukupi';
+      		RAISE EXCEPTION 'Insufficient Stock';
     	ELSE
 		    UPDATE "Barangs"
 		    SET "jumlah_stok" = "jumlah_stok" - NEW.jumlah_barang
@@ -102,7 +102,7 @@ BEGIN
 	    RETURN NEW;
 	  ELSIF TG_OP = 'UPDATE' THEN
 	  	IF NEW.jumlah_barang > ((SELECT jumlah_stok FROM "Barangs" WHERE id = NEW.barang_id) + OLD.jumlah_barang) THEN
-      		RAISE EXCEPTION 'Stok tidak mencukupi';
+      		RAISE EXCEPTION 'Insufficient Stock';
     	ELSE
 		    UPDATE "Barangs"
 		    SET "jumlah_stok" = "jumlah_stok" - (NEW.jumlah_barang - OLD.jumlah_barang)
@@ -341,3 +341,7 @@ CREATE TRIGGER delete_jumlah_stok_pembelian_trigger
 AFTER DELETE ON "Barang_Transaksi_Pembelians"
 FOR EACH ROW
 EXECUTE FUNCTION trigger_jumlah_stok_pembelian_delete()
+
+
+--Indexing Barang
+CREATE INDEX idx_nama_barang ON "Barangs" (nama);
